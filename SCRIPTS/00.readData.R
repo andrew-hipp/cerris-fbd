@@ -1,6 +1,7 @@
 ## read in Cerris data
 library(ape)
 library(phytools)
+library(magrittr)
 # library(MCMCtreeR)
 # library(ips)
 if(!exists('dat.sum')) dat.sum <- read.table('../DATA/runs1.2.3.5.7.8.9.10.logSummary.txt',
@@ -28,11 +29,13 @@ tr.full <- lapply(tr.full, function(x) lapply(x, cleanTree))
 tree.subsample <- lapply(tr.full, function(x) sample(x, size = 200))
 }
 
+pdf('../OUT/treeOut.v1.pdf', 8.5, 11)
 plot.new()
 lapply(tree.subsample$r1, plotTree,
       add = T,
-      color = make.transparent('blue', alpha = 0.1),
-      lwd = 0.1,
+      color = make.transparent('blue', alpha = 0.05),
+      lwd = 0.1
       # xlim = c(0, 80),
       )
 plotTree(tr.clean$r1, add = TRUE)
+dev.off()
