@@ -33,6 +33,6 @@ class(tree.subsample$r1) <- 'multiPhylo'
 
 ## problem: lines up at crown and tips
 pdf('../OUT/densiTreeOut.v1.pdf', 8.5, 11)
-plot.new()
 densiTree(tree.subsample$r1, alpha = 0.01)
 dev.off()
+write.tree(tr.clean$r1, '../OUT/tree.cleaned.r1.tre')
