@@ -2,6 +2,7 @@
 library(ape)
 library(phytools)
 library(magrittr)
+library(phangorn)densi
 # library(MCMCtreeR)
 # library(ips)
 if(!exists('dat.sum')) dat.sum <- read.table('../DATA/runs1.2.3.5.7.8.9.10.logSummary.txt',
@@ -26,17 +27,12 @@ cleanTree <- function(x, keepGrp = '_0.0', strip = '_0.0', ladder = T) {
 set.seed(1)
 tr.clean <- lapply(tr, cleanTree)
 tr.full <- lapply(tr.full, function(x) lapply(x, cleanTree))
-tree.subsample <- lapply(tr.full, function(x) sample(x, size = 200))
+tree.subsample <- lapply(tr.full, function(x) sample(x, size = 500))
+class(tree.subsample$r1) <- 'multiPhylo'
 }
 
 ## problem: lines up at crown and tips
-pdf('../OUT/treeOut.v1.pdf', 8.5, 11)
+pdf('../OUT/densiTreeOut.v1.pdf', 8.5, 11)
 plot.new()
-lapply(tree.subsample$r1, plotTree,
-      add = T,
-      color = make.transparent('blue', alpha = 0.05),
-      lwd = 0.1
-      # xlim = c(0, 80),
-      )
-plotTree(tr.clean$r1, add = TRUE)
+densiTree(tree.subsample$r1, alpha = 0.01)
 dev.off()
