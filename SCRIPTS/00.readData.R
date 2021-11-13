@@ -29,6 +29,7 @@ tr.full <- lapply(tr.full, function(x) lapply(x, cleanTree))
 tree.subsample <- lapply(tr.full, function(x) sample(x, size = 200))
 }
 
+## problem: lines up at crown and tips
 pdf('../OUT/treeOut.v1.pdf', 8.5, 11)
 plot.new()
 lapply(tree.subsample$r1, plotTree,
