@@ -2,7 +2,7 @@
 library(ape)
 library(phytools)
 library(magrittr)
-library(phangorn)densi
+library(phangorn)
 # library(MCMCtreeR)
 # library(ips)
 if(!exists('dat.sum')) dat.sum <- read.table('../DATA/runs1.2.3.5.7.8.9.10.logSummary.txt',
