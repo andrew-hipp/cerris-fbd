@@ -14,7 +14,7 @@ if(!exists('rads')) {
 
 if(read.meta) {
   message('... reading metadata ...')
-  dat.meta <- read.xlsx('../DATA/oakAccessions_cerrisRevision_2020-11-23.xlsx', 1)
+  dat.meta <- read.xlsx('../DATA/oakAccessions_cerrisRevision_2021-08-06.xlsx', 1)
 }
 
 dat.inds <- dat.meta$fastQ.file.name[which(dat.meta$cerrisProject == 'cerris')] %>%
