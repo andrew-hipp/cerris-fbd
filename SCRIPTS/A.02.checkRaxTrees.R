@@ -28,7 +28,7 @@ if(read.tr) {
 
 if(read.meta) {
   message('... reading metadata ...')
-  dat.meta <- read.xlsx('../DATA/oakAccessions_cerrisRevision_2020-11-23.xlsx', 1)
+  dat.meta <- read.xlsx('../DATA/oakAccessions_cerrisRevision_2021-08-06.xlsx', 1)
 } else message('** DID NOT READ NEW METADATA; used metadata in workspace **')
 
 #tr$tip.label <- label.elements(tr, '.', fixed = T)
