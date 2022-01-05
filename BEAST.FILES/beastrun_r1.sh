@@ -1,0 +1,10 @@
+../../beast/bin/beast -beagle_GPU -threads 4 -instances 4 -prefix run01_ cerris.2022-01-05.r1.xml
+../../beast/bin/beast -beagle_GPU -threads 4 -instances 4 -prefix run02_ cerris.2022-01-05.r1.xml
+../../beast/bin/beast -beagle_GPU -threads 4 -instances 4 -prefix run03_ cerris.2022-01-05.r1.xml
+../../beast/bin/beast -beagle_GPU -threads 4 -instances 4 -prefix run04_ cerris.2022-01-05.r1.xml
+../../beast/bin/beast -beagle_GPU -threads 4 -instances 4 -prefix run05_ cerris.2022-01-05.r1.xml
+../../beast/bin/beast -beagle_GPU -threads 4 -instances 4 -prefix run06_ cerris.2022-01-05.r1.xml
+../../beast/bin/beast -beagle_GPU -threads 4 -instances 4 -prefix run07_ cerris.2022-01-05.r1.xml
+../../beast/bin/beast -beagle_GPU -threads 4 -instances 4 -prefix run08_ cerris.2022-01-05.r1.xml
+../../beast/bin/beast -beagle_GPU -threads 4 -instances 4 -prefix run09_ cerris.2022-01-05.r1.xml
+../../beast/bin/beast -beagle_GPU -threads 4 -instances 4 -prefix run10_ cerris.2022-01-05.r1.xml
