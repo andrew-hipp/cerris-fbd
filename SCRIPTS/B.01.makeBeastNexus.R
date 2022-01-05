@@ -25,7 +25,6 @@ dates.mat <-
   t %>% round(2)
 dimnames(dates.mat) <- list(dat.dating$analysisName, c('r1', 'r2', 'r3'))
 
-
 dat.meta[[singleSpCol]] <- as.logical(dat.meta[[singleSpCol]])
 dat.meta[[singleSpCol]][is.na(dat.meta[[singleSpCol]])] <- FALSE
 
@@ -44,6 +43,7 @@ dates.mat <-
   rbind(dates.mat, matrix(
     0, length(radInds.cerrisNames), 3, dimnames = list(radInds.cerrisNames, NULL)
   )) # close rbind
+write.csv(dates.mat, '../OUT/beastDatesMat.csv')
 
 for(i in colnames(dates.mat)) {
   temp <- paste(row.names(dates.mat), '=', dates.mat[, i], ',', sep = '')
