@@ -89,6 +89,7 @@ for(i in names(tr.orig)) {
               cex = fig.node.cex, frame="n", adj = c(1.5,-0.5)
             ) # close nodelabels
 	dev.off()
+  write.tree(tr[[i]], paste('../OUT/', i, '.cleanedLabels.tre', sep = ''))
 
   if(make.singletons) {
     pdf(paste('../OUT/singletons', i, 'pdf', sep = '.'), 8.5, 11)
@@ -99,6 +100,6 @@ for(i in names(tr.orig)) {
                 cex = fig.node.cex, frame="n", adj = c(1.5,-0.5)
               ) # close nodelabels
   	dev.off()
-
+    write.tree(tr.singletons[[i]], paste('../OUT/singletons', i, 'cleanedLabels.tre', sep = '.'))
   }
 } # close i
