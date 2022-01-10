@@ -65,7 +65,8 @@ for(i in names(tr.orig)) {
 	tr[[i]]$tip.label <- gsub('.gz|.fq|.barcodeStripped|.nameFixed|_2012.techRep', '', tr[[i]]$tip.label)
 	tips <- lapply(tips, function(x) tr[[i]]$tip.label[x])
 	tr[[i]] <- drop.tip(tr[[i]], c(tips$drops, tips$noChange))
-	tr[[i]] <- root(tr[[i]], grep(OG, tr[[i]]$tip.label, value = T)) %>% ladderize
+	tr[[i]] <- root(tr[[i]], grep(OG, tr[[i]]$tip.label, value = T),
+                  resolve.root = TRUE, edgelabel = TRUE) %>% ladderize
 
   if(make.singletons) {
     tips.temp <- tr[[i]]$tip.label %>%
