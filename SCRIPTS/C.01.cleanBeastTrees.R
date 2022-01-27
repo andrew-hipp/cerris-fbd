@@ -1,17 +1,19 @@
 ## clean up the beast trees
-
 library(ape)
+library(magrittr)
+
 datePrecision <- 1
 dopdf = T
 
 trFile <- c(
   r1 = '../BEAST.FILES/comboRuns.noBurn.annotated_r1.tre',
-  r2 = '../BEAST.FILES/comboRuns.noBurn.annotated_r2.tre'
+  r2 = '../BEAST.FILES/comboRuns.noBurn.annotated_r2.tre',
+  r3 = '../BEAST.FILES/comboRuns.noBurn.annotated_r3.tre'
 )
 
 tr.beast <- lapply(trFile, read.nexus)
 
-tr.beast.extant <- structure(vector('list', 2), .Names = names(tr.beast))
+tr.beast.extant <- structure(vector('list', length(trFile)), .Names = names(tr.beast))
 
 for(i in names(tr.beast)) {
   taxa.fossils <-
