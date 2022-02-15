@@ -42,3 +42,20 @@ for(i in names(loc.m)) {
     ) # close cerris.sh
   } # close i
 writeLines(cerris.sh, paste('../PHY.NEW/cerris', today, 'sh', sep = '.'))
+
+## summarize log files
+loc.logs <- lapply(dir('../LOGFILES', patt = '.log', full = T), readLines)
+names(loc.logs) <- dir('../LOGFILES', patt = '.log', full = F) %>%
+  gsub(pattern = '.log|cerris.2022-01-04.', replacement = '')
+loc.counts <-
+  sapply(loc.logs, grep, pattern = 'locus') %>%
+  sapply(FUN = length)
+write.csv(loc.counts, '../LOGFILES/locus.counts.txt')
+
+phy.counts <-
+  sapply(dir('../PHY.NEW/', patt = '.phy', full = T), readLines, n = 1) %>%
+  strsplit(split = ' ', fixed = T) %>%
+  sapply(FUN = '[', 2)
+names(phy.counts) <-
+  gsub('../PHY.NEW/cerris.2022-01-04.|.phy', '', names(phy.counts))
+write.csv(phy.counts, '../LOGFILES/nucleotide.counts.txt')
