@@ -59,3 +59,9 @@ phy.counts <-
 names(phy.counts) <-
   gsub('../PHY.NEW/cerris.2022-01-04.|.phy', '', names(phy.counts))
 write.csv(phy.counts, '../LOGFILES/nucleotide.counts.txt')
+
+loc.cov <- sapply(c('m15', 'm20', 'm25'), function(x) {
+  sum(rads$radSummary$inds.mat[dat.inds, loc.m[[x]]]) /
+    prod(dim(rads$radSummary$inds.mat[dat.inds, loc.m[[x]]]))
+  })
+write.csv(loc.cov, '../LOGFILES/locus.coverage.txt')
