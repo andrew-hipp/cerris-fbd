@@ -61,3 +61,8 @@ rad2nex(rad.mat, inds = radInds.cerrisDating,
        outfile = fileBase,
        logfile = paste(fileBase, 'log', sep = '.'),
        verbose = TRUE)
+
+loc.cov <- c(loc.cov, fbd_m10 =
+  sum(rads$radSummary$inds.mat[radInds.cerrisDating, radLoc.cerris]) /
+    prod(dim(rads$radSummary$inds.mat[radInds.cerrisDating, radLoc.cerris]))
+write.csv(loc.cov, '../LOGFILES/locus.coverage.txt')
