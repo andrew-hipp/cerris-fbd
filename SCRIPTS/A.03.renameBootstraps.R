@@ -1,4 +1,4 @@
-## reading global oaks data
+## renaming bootstrap trees
 
 library(ape)
 library(magrittr)
@@ -8,8 +8,6 @@ library(phytools)
 read.tr <- TRUE
 read.meta <- TRUE
 make.singletons <- TRUE
-#fig.fileName <- 'tr.trial.v7-gtr.tre.export-withDeletions.pdf'
-#fig.nPages <- 8
 fig.tip.cex <- 0.7
 fig.node.cex <- 0.5
 fig.delim <- ' | '
@@ -19,9 +17,9 @@ singleSpCol <- 'cerrisSingleSpV2' # old one was 'cerrisSingleSp'
 
 if(read.tr) {
   message('... reading trees ...')
-  tr.files <- dir(tr.dir, patt = 'bipartitions.cerris')
-  tr.orig <- lapply(tr.files, function(x) read.tree(paste(tr.dir, x, sep = '')))
-  names(tr.orig) <- gsub('RAxML_bipartitions.', '', tr.files, fixed = T)
+  tr.orig <- read.tree('../PHY.NEW/RAxML_bootstrap.cerris.2022-01-04.m15.rax')
+  class(tr.orig) <- 'list'
+  names(tr.orig) <- paste('boot', seq(length(tr.orig)), sep = '_')
 } else message('** DID NOT READ A NEW TREE; used tree in workspace **')
 
 if(read.meta) {
@@ -76,27 +74,9 @@ for(i in names(tr.orig)) {
       drop.tip(tr[[i]], tr[[i]]$tip.label[-c(tips.single)])
     rm(tips.single)
   } # close make.singletons
-
-	message('... plotting tree to file ...')
-	pdf(paste('../OUT/', i, '.pdf', sep = ''), 8.5, 11)
-	plot(tr[[i]], cex = fig.tip.cex, show.node.label = FALSE)
-	nodelabels(text= tr[[i]]$node.label,
-             node = seq(length(tr[[i]]$node.label)) +
-                    length(tr[[i]]$tip.label),
-              cex = fig.node.cex, frame="n", adj = c(1.5,-0.5)
-            ) # close nodelabels
-	dev.off()
-  write.tree(tr[[i]], paste('../OUT/', i, '.cleanedLabels.tre', sep = ''))
-
-  if(make.singletons) {
-    pdf(paste('../OUT/singletons', i, 'pdf', sep = '.'), 8.5, 11)
-  	plot(tr.singletons[[i]], cex = fig.tip.cex, show.node.label = FALSE)
-  	nodelabels(text= tr.singletons[[i]]$node.label,
-               node = seq(length(tr.singletons[[i]]$node.label)) +
-                      length(tr.singletons[[i]]$tip.label),
-                cex = fig.node.cex, frame="n", adj = c(1.5,-0.5)
-              ) # close nodelabels
-  	dev.off()
-    write.tree(tr.singletons[[i]], paste('../OUT/singletons', i, 'cleanedLabels.tre', sep = '.'))
-  }
 } # close i
+
+message('... plotting trees to file ...')
+class(tr) <- class(tr.singletons) <- 'multiPhylo'
+write.tree(tr, '../OUT/boots.m15.cleanedLabels.tre')
+write.tree(tr.singletons, '../OUT/boots.singletons.m15.cleanedLabels.tre')
