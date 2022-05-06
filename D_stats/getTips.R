@@ -21,7 +21,7 @@ tipsKeep <-
   getMRCA(tr, c('OAK-MOR-981', 'OAK-MOR-986')) %>%
   phangorn::Descendants(x = tr, type = 'tips') %>%
   '[['(1)
-tipsKeep <- c(og, tr$tip.label[tipsKeep])
+tipsKeep <- c(taxa.og, taxa.ilex, tr$tip.label[tipsKeep])
 
 tr.cerris <-
   drop.tip(tr, setdiff(tr$tip.label, tipsKeep)) %>%
