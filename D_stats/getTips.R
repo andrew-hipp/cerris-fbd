@@ -17,7 +17,7 @@ tr <- read.tree('../PHY.NEW/RAxML_bestTree.cerris.2022-01-04.m15.rax')
 tipsKeep <-
   getMRCA(tr, c('OAK-MOR-981', 'OAK-MOR-986')) %>%
   phangorn::Descendants(x = tr, type = 'tips') %>%
-  '[['(1) %>%
+  '[['(1)
 tipsKeep <- c(og, tr$tip.label[tipsKeep])
 
 tr.cerris <- drop.tip(tr, setdiff(tr$tip.label, tipsKeep))
