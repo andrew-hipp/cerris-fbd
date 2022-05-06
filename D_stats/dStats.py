@@ -33,7 +33,7 @@ bb.generate_tests_from_tree(
 bb.run(ipyclient)
 
 out_suberIlex = bb.results_table.sort_values(by="Z", ascending=False)
-taxa_suberIlex = bb.taxon_table.iloc[sorted_results.index]
+taxa_suberIlex = bb.taxon_table.iloc[out_suberIlex.index]
 
 out_suberIlex.to_csv('bb.dstat.sorted_suberIlex.csv', sep = ',')
 taxa_suberIlex.to_csv('bb.dstat.taxa_suberIlex.csv', sep = ',')
