@@ -4,7 +4,7 @@
 
 # Session Data files
 .RData
-.Rout
+*.Rout
 
 # User-specific files
 .Ruserdata
@@ -38,3 +38,6 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# big uncompressed loci files
+*.loci
