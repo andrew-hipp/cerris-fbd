@@ -22,8 +22,8 @@ bb = ipa.baba(data = locifile, newick = newick)
 
 bb.generate_tests_from_tree(
     constraint_dict={
-        # "p4": ["DM5", "DM20", "DM18", "DM56"],
-        "p4": ["DM5"],
+        "p4": ["DM5", "DM20", "DM18", "DM56"],
+        # "p4": ["DM5"],
         "p3": ["OAK-MOR-589.fq.barcodeStripped", "OAK-MOR-980", "OAK-MOR-1146"],
         # "p3": ["OAK-MOR-589.fq.barcodeStripped"],
         "p2": ["OAK-MOR-1144", "OAK-MOR-588.fq.barcodeStripped", "OAK-MOR-985"]
@@ -35,5 +35,5 @@ bb.run(ipyclient)
 out_suberIlex = bb.results_table.sort_values(by="Z", ascending=False)
 taxa_suberIlex = bb.taxon_table.iloc[out_suberIlex.index]
 
-out_suberIlex.to_csv('bb.dstat.sorted_suberIlex.csv', sep = ',')
-taxa_suberIlex.to_csv('bb.dstat.taxa_suberIlex.csv', sep = ',')
+out_suberIlex.to_csv('bb.dstat.sorted_suberIlex_full.csv', sep = ',')
+taxa_suberIlex.to_csv('bb.dstat.taxa_suberIlex_full.csv', sep = ',')
