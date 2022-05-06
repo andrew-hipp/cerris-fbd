@@ -11,7 +11,6 @@ make.singletons <- TRUE
 fig.tip.cex <- 0.7
 fig.node.cex <- 0.5
 fig.delim <- ' | '
-tr.dir <- '../PHY.NEW/'
 OG <- 'densifl' # rooting with Notholithocarpus
 singleSpCol <- 'cerrisSingleSpV2' # old one was 'cerrisSingleSp'
 
@@ -76,7 +75,7 @@ for(i in names(tr.orig)) {
   } # close make.singletons
 } # close i
 
-message('... plotting trees to file ...')
+message('... writing trees to file ...')
 class(tr) <- class(tr.singletons) <- 'multiPhylo'
 write.tree(tr, '../OUT/boots.m15.cleanedLabels.tre')
 write.tree(tr.singletons, '../OUT/boots.singletons.m15.cleanedLabels.tre')
