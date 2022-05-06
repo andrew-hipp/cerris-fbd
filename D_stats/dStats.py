@@ -10,7 +10,7 @@ import toyplot
 # ... replacing `-n 40` with the number of cores you want to use.
 ipyclient = ipp.Client(cluster_id="baba")
 
-locifile = '../DATA/oaksall_v1_2.m15.loci.gz'
+locifile = '../DATA/cerrisdstat.loci'
 newick = '../PHY.NEW/RAxML_bestTree.cerris.2022-01-04.m15.rax'
 
 bb = ipa.baba(data = locifile, newick = newick)
@@ -29,3 +29,5 @@ bb.generate_tests_from_tree(
         # "p2": ["OAK-MOR-1144", "OAK-MOR-588.fq.barcodeStripped", "OAK-MOR-985"]
         "p2": ["OAK-MOR-1144"]
     })
+
+bb.run(ipyclient)
