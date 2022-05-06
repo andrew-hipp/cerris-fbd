@@ -1,4 +1,4 @@
-#!/bin/bash
+# executes d-stats in ipyrad
 
 import ipyrad.analysis as ipa
 import ipyparallel as ipp
