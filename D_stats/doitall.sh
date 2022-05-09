@@ -1,6 +1,6 @@
 #!/bin/bash
 
-R CMD BATCH getTips.R
+# R CMD BATCH getTips.R
 
 ipcluster start -n 128 --cluster-id="baba" --daemonize
 
