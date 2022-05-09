@@ -8,6 +8,7 @@ import toyplot
 # Before running, execute:
 # `ipcluster start -n 40 --cluster-id="baba" --daemonize`
 # ... replacing `-n 40` with the number of cores you want to use.
+# this is already done in doitall.sh
 ipyclient = ipp.Client(cluster_id="baba")
 
 locifile = '../DATA/cerrisdstat.loci'
@@ -26,7 +27,7 @@ bb.generate_tests_from_tree(
         "p4": ["OAK-MOR-982", "OAK-MOR-981", "OAK-MOR-578.fq.barcodeStripped"],
         "p3": ["OAK-MOR-736.fq.barcodeStripped", "OAK-MOR-591.fq.barcodeStripped", "OAK-MOR-728.fq.barcodeStripped", "OAK-MOR-729.fq.barcodeStripped", "OAK-MOR-1060", "OAK-MOR-1061"],
         "p2": ["OAK-MOR-593.fq.barcodeStripped", "OAK-MOR-986"],
-        "p1": ["OAK-MOR-985", "OAK-MOR-1144", "OAK-MOR-588.fq.barcodeStripped"]        
+        "p1": ["OAK-MOR-985", "OAK-MOR-1144", "OAK-MOR-588.fq.barcodeStripped"]
     })
 
 bb.run(ipyclient)

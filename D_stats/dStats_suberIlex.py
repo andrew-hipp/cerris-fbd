@@ -8,6 +8,7 @@ import toyplot
 # Before running, execute:
 # `ipcluster start -n 40 --cluster-id="baba" --daemonize`
 # ... replacing `-n 40` with the number of cores you want to use.
+# this is already done in doitall.sh
 ipyclient = ipp.Client(cluster_id="baba")
 
 locifile = '../DATA/cerrisdstat.loci'
