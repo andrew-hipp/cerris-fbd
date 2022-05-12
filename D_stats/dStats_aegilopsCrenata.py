@@ -18,7 +18,7 @@ bb = ipa.baba(data = locifile, newick = newick)
 
 # Q. libani et al - Q. crenata test constraints:
 #  p4 - Q. chenii, Q. variabilis, and Q. acutissima as outgroups
-#  p3 - Q. macrolepis, Q. brantii, Q. ithaburensis potential introgressor 1
+#  p3 - Aegilops oaks - Q. macrolepis, Q. brantii, Q. ithaburensis potential introgressor 1
 #  p2 - Q. crenata potential introgressor 2
 #  p1 - Q. suber as sister species to Q. crenata
 
