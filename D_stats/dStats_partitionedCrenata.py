@@ -51,8 +51,8 @@ bb.tests = [
 
 bb.run(ipyclient)
 
-out_partitionedCrenata = bb.results_table.sort_values(by="Z", ascending=False)
-taxa_partitionedCrenata = bb.taxon_table.iloc[out_partitionedCrenata.index]
+out_partitionedCrenata = bb.results_table
+taxa_partitionedCrenata = bb.taxon_table
 
-out_partitionedCrenata.to_csv('dstat.sorted_partitionedCrenata_full.csv', sep = ',')
-taxa_libaniCrenata.to_csv('dstat.taxa_partitionedCrenata_full.csv', sep = ',')
+out_partitionedCrenata.to_csv('dstat_partitionedCrenata_full.csv', sep = ',')
+taxa_partitionedCrenata.to_csv('dstat_partitionedCrenata_full.csv', sep = ',')
