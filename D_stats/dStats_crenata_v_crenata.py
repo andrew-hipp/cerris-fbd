@@ -35,5 +35,5 @@ bb.run(ipyclient)
 out_crenataVsCrenata = bb.results_table.sort_values(by="Z", ascending=False)
 taxa_crenataVsCrenata = bb.taxon_table.iloc[out_crenataVsCrenata.index]
 
-out_crenataVsCrenata.to_csv('bb.dstat.sorted_crenataVsCrenata_full.csv', sep = ',')
-taxa_crenataVsCrenata.to_csv('bb.dstat.taxa_crenataVsCrenata_full.csv', sep = ',')
+out_crenataVsCrenata.to_csv('bb.dstat.sorted_crenata_v_crenata_full.csv', sep = ',')
+taxa_crenataVsCrenata.to_csv('bb.dstat.taxa_crenata_v_crenata_full.csv', sep = ',')
