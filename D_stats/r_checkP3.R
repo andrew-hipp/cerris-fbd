@@ -7,11 +7,14 @@ inds = c(
 dat.taxa <- read.csv('bb.dstat.taxa_aegilopsAfares_full.csv')
 dat.stat <- read.csv('bb.dstat.sorted_aegilopsAfares_full.csv')
 
-out <- lapply(inds, function(x) {
-  dat.stat$dstat[grep(x, dat.taxa$p3)]
-})
-names(out) <- strsplit(inds, '.', fixed = T) %>% sapply(FUN = '[', 1)
+out <- list(
+  D = lapply(inds, function(x) {dat.stat$dstat[grep(x, dat.taxa$p3)]}),
+  Z = lapply(inds, function(x) {dat.stat$dstat[grep(x, dat.taxa$Z3)]})
+names(out$D) <- names(out$Z) <-
+  strsplit(inds, '.', fixed = T) %>% sapply(FUN = '[', 1)
 
-pdf('../OUT/dstat_aegilopsAfares.boxPlot.pdf', 11, 8.5)
-boxplot(out, cex.axis = 0.5)
+pdf('../OUT/dstat_aegilopsAfares.boxPlot.pdf', 8.5, 11)
+matrix(1:2, 2)
+boxplot(out$D, cex.axis = 0.5, main = 'D-statistic')
+boxplot(out$Z, cex.axis = 0.5, main = 'Z')
 dev.off()
