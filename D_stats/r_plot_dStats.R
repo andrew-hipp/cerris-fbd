@@ -22,9 +22,10 @@ dStats.p <- lapply(dStats.Z, function(x) {
 })
 pdf('../OUT/dStats-p.pdf', 11.5, 8)
 boxplot(dStats.p)
+abline(h = 0.01, lty = 'dashed')
 dev.off()
 
-pdf('../OUT/dStats-2panel.pdf', 8, 11.5)
+pdf('../OUT/dStats-3panel.pdf', 8, 11.5)
 layout(matrix(1:3, 3))
 boxplot(dStats.d, main = 'D-stat', cex.axis = 0.5)
 boxplot(dStats.Z, main = 'Z', cex.axis = 0.5)
