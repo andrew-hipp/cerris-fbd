@@ -1,6 +1,6 @@
 #!/bin/bash
 
-R CMD BATCH getTips.R
+R CMD BATCH r_getTips.R
 
 ipcluster start -n 32 --cluster-id="baba" --daemonize
 
@@ -15,7 +15,7 @@ python dStats_crenata_v_crenata.py
 python dStats_partitionedCrenata.py
 python dStats_cerrisAfares.py
 
-R CMD BATCH plot_dStats.R
+R CMD BATCH r_plot_dStats.R
 
 rm ../DATA/cerrisdstat.loci
 
