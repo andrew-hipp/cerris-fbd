@@ -9,8 +9,8 @@ inds = list(
 ) # close list
 sets <- names(inds)
 
-dat.taxa <- lapply(sets, function(x) read.csv(paste('bb.dstat.taxa_', x, '_full.csv', sep = ''))
-dat.stat <- lapply(sets, function(x) read.csv(paste('bb.dstat.sorted_', x, '_full.csv', sep = ''))
+dat.taxa <- lapply(sets, function(x) read.csv(paste('bb.dstat.taxa_', x, '_full.csv', sep = '')))
+dat.stat <- lapply(sets, function(x) read.csv(paste('bb.dstat.sorted_', x, '_full.csv', sep = '')))
 
 for(i in sets) {
   out <- list(
