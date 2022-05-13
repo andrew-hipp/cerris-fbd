@@ -20,7 +20,7 @@ for(i in sets) {
   names(out$D) <- names(out$Z) <-
     strsplit(inds[[i]], '.', fixed = T) %>% sapply(FUN = '[', 1)
 
-  pdf(('../OUT/P3boxplot_', i, '.pdf', sep = ''), 8.5, 11)
+  pdf(paste('../OUT/P3boxplot_', i, '.pdf', sep = ''), 8.5, 11)
   layout(matrix(1:2, 2))
   boxplot(out$D, cex.axis = 0.5, main = 'D-statistic')
   boxplot(out$Z, cex.axis = 0.5, main = 'Z')
