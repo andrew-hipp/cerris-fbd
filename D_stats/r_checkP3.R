@@ -21,7 +21,7 @@ for(i in sets) {
   )
   names(out$D) <- names(out$Z) <-
     strsplit(inds[[i]], '.', fixed = T) %>% sapply(FUN = '[', 1) %>%
-    gsub(pattern = "OAK-MOR-", replacement = "", fixed = T)
+    gsub(pattern = "OAK-MOR-|OAKS-MOR-", replacement = "", fixed = T)
 
   pdf(paste('../OUT/P3boxplot_', i, '.pdf', sep = ''), 8.5, 11)
   layout(matrix(1:2, 2))
