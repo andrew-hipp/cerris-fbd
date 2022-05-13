@@ -20,7 +20,8 @@ for(i in sets) {
     Z = lapply(inds[[i]], function(x) {dat.stat[[i]]$Z[grep(x, dat.taxa[[i]]$p3)]})
   )
   names(out$D) <- names(out$Z) <-
-    strsplit(inds[[i]], '.', fixed = T) %>% sapply(FUN = '[', 1)
+    strsplit(inds[[i]], '.', fixed = T) %>% sapply(FUN = '[', 1) %>%
+    gsub(pattern = "OAK-MOR-", replacement = "", fixed = T)
 
   pdf(paste('../OUT/P3boxplot_', i, '.pdf', sep = ''), 8.5, 11)
   layout(matrix(1:2, 2))
