@@ -33,7 +33,7 @@ for(i in sets) {
   layout(matrix(1:3, 3))
   boxplot(out$D, cex.axis = 0.5, main = 'D-statistic')
   boxplot(out$Z, cex.axis = 0.5, main = 'Z')
-  boxplot(out$p, cex.axis = 0.5, main = 'p-value (Holm-Bonferroni corrected)', ylim = c(0, 0.25))
+  boxplot(out$p, cex.axis = 0.5, main = 'p-value (Holm-Bonferroni corrected)', ylim = c(0, 0.2))
   abline(h = 0.01, lty = 'dashed')
   dev.off()
 }
