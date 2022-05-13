@@ -20,9 +20,12 @@ dStats.p <- lapply(dStats.Z, function(x) {
   out <- pnorm(-sapply(x, abs)) * 2
   out <- p.adjust(out, 'holm')
 })
+pdf('../OUT/dStats-p.pdf', 11.5, 8)
+boxplot(dStats.p)
+dev.off()
 
 pdf('../OUT/dStats-2panel.pdf', 8, 11.5)
-layout(matrix(1:3, 2))
+layout(matrix(1:3, 3))
 boxplot(dStats.d, main = 'D-stat', cex.axis = 0.5)
 boxplot(dStats.Z, main = 'Z', cex.axis = 0.5)
 boxplot(dStats.p, main = 'p, Holm correction', cex.axis = 0.5)

@@ -19,13 +19,17 @@ for(i in sets) {
     D = lapply(inds[[i]], function(x) {dat.stat[[i]]$dstat[grep(x, dat.taxa[[i]]$p3)]}),
     Z = lapply(inds[[i]], function(x) {dat.stat[[i]]$Z[grep(x, dat.taxa[[i]]$p3)]})
   )
-  names(out$D) <- names(out$Z) <-
+  out$p <- p.adjust(pnorm(-sapply(x, abs)) * 2, 'holm')
+
+  names(out$D) <- names(out$Z) <- names(out$p) <-
     strsplit(inds[[i]], '.', fixed = T) %>% sapply(FUN = '[', 1) %>%
     gsub(pattern = "OAK-MOR-|OAKS-MOR-", replacement = "", fixed = T)
 
   pdf(paste('../OUT/P3boxplot_', i, '.pdf', sep = ''), 8.5, 11)
-  layout(matrix(1:2, 2))
+  layout(matrix(1:3, 3))
   boxplot(out$D, cex.axis = 0.5, main = 'D-statistic')
   boxplot(out$Z, cex.axis = 0.5, main = 'Z')
+  boxplot(out$p, cex.axis = 0.5, main = 'p-value (Holm-Bonferroni corrected)')
+  abline(h = 0.01)
   dev.off()
 }
