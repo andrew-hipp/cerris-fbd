@@ -19,7 +19,11 @@ for(i in sets) {
     D = lapply(inds[[i]], function(x) {dat.stat[[i]]$dstat[grep(x, dat.taxa[[i]]$p3)]}),
     Z = lapply(inds[[i]], function(x) {dat.stat[[i]]$Z[grep(x, dat.taxa[[i]]$p3)]})
   )
-  out$p <- p.adjust(pnorm(-sapply(out$Z, abs)) * 2, 'holm')
+  out$p <- lapply(out$Z, function(x) {
+    out <- pnorm(-sapply(x, abs)) * 2
+    out <- p.adjust(out, 'holm')
+    return(out)
+  })
 
   names(out$D) <- names(out$Z) <- names(out$p) <-
     strsplit(inds[[i]], '.', fixed = T) %>% sapply(FUN = '[', 1) %>%

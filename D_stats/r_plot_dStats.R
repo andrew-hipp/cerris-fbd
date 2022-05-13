@@ -19,6 +19,7 @@ dev.off()
 dStats.p <- lapply(dStats.Z, function(x) {
   out <- pnorm(-sapply(x, abs)) * 2
   out <- p.adjust(out, 'holm')
+  return(out)
 })
 pdf('../OUT/dStats-p.pdf', 11.5, 8)
 boxplot(dStats.p)
