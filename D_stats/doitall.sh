@@ -10,12 +10,12 @@ gunzip -k ../DATA/cerrisdstat.loci.gz
 # python dStats_cerrisCrenata.py
 # python dStats_libaniCrenata.py
 # python dStats_aegilopsCrenata.py
-# python dStats_aegilopsAfares.py
+# python dStats_cerrisAfares.py
 python dStats_crenata_v_crenata.py
 python dStats_partitionedCrenata.py
-python dStats_cerrisAfares.py
 
 R CMD BATCH r_plot_dStats.R
+R CMD BATCH r_checkP3.R
 
 rm ../DATA/cerrisdstat.loci
 

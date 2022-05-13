@@ -32,8 +32,8 @@ bb.generate_tests_from_tree(
 
 bb.run(ipyclient)
 
-out_aegilopsAfares = bb.results_table.sort_values(by="Z", ascending=False)
-taxa_aegilopsAfares = bb.taxon_table.iloc[out_aegilopsAfares.index]
+out_cerrisAfares = bb.results_table.sort_values(by="Z", ascending=False)
+taxa_cerrisAfares = bb.taxon_table.iloc[out_cerrisAfares.index]
 
-out_aegilopsAfares.to_csv('bb.dstat.sorted_aegilopsAfares_full.csv', sep = ',')
-taxa_aegilopsAfares.to_csv('bb.dstat.taxa_aegilopsAfares_full.csv', sep = ',')
+out_cerrisAfares.to_csv('bb.dstat.sorted_cerrisAfares_full.csv', sep = ',')
+taxa_cerrisAfares.to_csv('bb.dstat.taxa_cerrisAfares_full.csv', sep = ',')
