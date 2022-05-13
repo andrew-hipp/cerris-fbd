@@ -27,13 +27,13 @@ for(i in sets) {
 
   names(out$D) <- names(out$Z) <- names(out$p) <-
     strsplit(inds[[i]], '.', fixed = T) %>% sapply(FUN = '[', 1) %>%
-    gsub(pattern = "OAK-MOR-|OAKS-MOR-", replacement = "", fixed = T)
+    gsub(pattern = "OAK-MOR-|OAKS-MOR-", replacement = "")
 
   pdf(paste('../OUT/P3boxplot_', i, '.pdf', sep = ''), 8.5, 11)
   layout(matrix(1:3, 3))
   boxplot(out$D, cex.axis = 0.5, main = 'D-statistic')
   boxplot(out$Z, cex.axis = 0.5, main = 'Z')
-  boxplot(out$p, cex.axis = 0.5, main = 'p-value (Holm-Bonferroni corrected)')
-  abline(h = 0.01)
+  boxplot(out$p, cex.axis = 0.5, main = 'p-value (Holm-Bonferroni corrected)', ylim = c(0, 0.3))
+  abline(h = 0.01, lty = 'dashed')
   dev.off()
 }
