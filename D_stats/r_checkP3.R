@@ -11,8 +11,10 @@ sets <- names(inds)
 
 dat.taxa <- lapply(sets, function(x) read.csv(paste('bb.dstat.taxa_', x, '_full.csv', sep = '')))
 dat.stat <- lapply(sets, function(x) read.csv(paste('bb.dstat.sorted_', x, '_full.csv', sep = '')))
+names(dat.stat) <- names(dat.taxa) <- sets
 
 for(i in sets) {
+  message(paste('doing', i))
   out <- list(
     D = lapply(inds[[i]], function(x) {dat.stat[[i]]$dstat[grep(x, dat.taxa[[i]]$p3)]}),
     Z = lapply(inds[[i]], function(x) {dat.stat[[i]]$Z[grep(x, dat.taxa[[i]]$p3)]})
