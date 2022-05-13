@@ -55,4 +55,4 @@ out_partitionedCrenata = bb.results_table
 taxa_partitionedCrenata = bb.taxon_table
 
 out_partitionedCrenata.to_csv('dstat_partitionedCrenata_full.csv', sep = ',')
-taxa_partitionedCrenata.to_csv('dstat_partitionedCrenata_full.csv', sep = ',')
+taxa_partitionedCrenata.to_csv('dstat_partitionedCrenata_taxa.csv', sep = ',')
