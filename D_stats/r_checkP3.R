@@ -9,7 +9,7 @@ dat.stat <- read.csv('bb.dstat.sorted_aegilopsAfares_full.csv')
 
 out <- list(
   D = lapply(inds, function(x) {dat.stat$dstat[grep(x, dat.taxa$p3)]}),
-  Z = lapply(inds, function(x) {dat.stat$dstat[grep(x, dat.taxa$Z3)]})
+  Z = lapply(inds, function(x) {dat.stat$dstat[grep(x, dat.taxa$Z)]})
 )
 names(out$D) <- names(out$Z) <-
   strsplit(inds, '.', fixed = T) %>% sapply(FUN = '[', 1)
