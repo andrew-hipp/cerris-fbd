@@ -21,3 +21,5 @@ out <- data.frame(
   p = sapply(dStats, function(x) mean_quantile(x$p)),
   Z = sapply(dStats, function(x) mean_quantile(Z$p))
 )
+
+write.csv(out, '../OUT/d-dstats_test_summary.csv')
