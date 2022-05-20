@@ -1,7 +1,7 @@
 # summarize tests conducted
 
 roundTo = 3 # how many digits to round to
-rt <- function(x, figs) round(x, figs = roundTo)
+rt <- function(x, figs = roundTo) round(x, figs)
 mean_quantile <- function(x, hi, lo) {
   out <- paste(rt(mean(x)), ' [', rt(quantile(x, lo)), ',', rt(quantile(x, hi)),']', sep  = '')
 }
