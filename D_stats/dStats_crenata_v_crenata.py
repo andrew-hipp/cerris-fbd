@@ -18,9 +18,9 @@ bb = ipa.baba(data = locifile, newick = newick)
 
 # Q. crenata593 vs 986 test constraints:
 #  p4 - Q. chenii, Q. variabilis, and Q. acutissima as outgroups
-#  p3 - Q. libani, Q. trojana, or Q. afares potential introgressor 1
-#  p2 - Q. crenata potential introgressor 2
-#  p1 - Q. suber as sister species to Q. crenata
+#  p3 - sect. Aegilops, Q. cerris, and sect. Libani as possible introgressors
+#  p2 - Q. crenata 593
+#  p1 - Q. crenata 986
 
 bb.generate_tests_from_tree(
     constraint_dict={
