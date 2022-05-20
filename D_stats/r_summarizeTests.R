@@ -4,6 +4,7 @@ roundTo = 3 # how many digits to round to
 rt <- function(x, figs = roundTo) round(x, figs)
 mean_quantile <- function(x, lo = 0.025, hi = 0.975) {
   out <- paste(rt(mean(x)), ' [', rt(quantile(x, lo)), ',', rt(quantile(x, hi)),']', sep  = '')
+  out
 }
 
 library(magrittr)
