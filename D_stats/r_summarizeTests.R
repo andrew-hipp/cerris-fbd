@@ -1,7 +1,7 @@
 # summarize tests conducted
 
 rt <- function(x) round(x, 3) # how many digits to round to
-mean_quantile <- function(x) paste(rt(mean(x)), ' [', rt(quantile(x, 0.025)), ',' rt(quantile(x, 0.975))']')
+mean_quantile <- function(x) paste(rt(mean(x)), ' [', rt(quantile(x, 0.025)), ',', rt(quantile(x, 0.975)),']', sep  = '')
 
 library(magrittr)
 dStats <- lapply(dir(patt = 'bb.dstat.sorted'), read.csv)
