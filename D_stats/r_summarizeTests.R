@@ -22,4 +22,4 @@ out <- data.frame(
   Z = sapply(dStats, function(x) mean_quantile(Z$p))
 )
 
-write.csv(out, '../OUT/d-dstats_test_summary.csv')
+write.csv(out, '../OUT/dStats_test_summary.csv')
