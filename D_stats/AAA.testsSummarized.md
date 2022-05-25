@@ -1,9 +1,10 @@
 ---
-subtitle: Andrew Hipp, 2022-05-20 notes
-title: D-statistic tests conducted
+title: D-statistic tests conducted for
+author: Andrew Hipp, ahipp@mortonarb.org
+date: 2022-05-20 notes
 ---
 
-1 -- "Aegilops-crenata" (n = 450 tests): introgression of subsect. *Aegilops* with *Q. crenata*
+1 -- Aegilops-crenata (n = 450 tests): introgression of subsect. *Aegilops* with *Q. crenata*
 ===============================================================================================
 
 -   p4 - Q. chenii, Q. variabilis, and Q. acutissima as outgroups
@@ -17,20 +18,20 @@ title: D-statistic tests conducted
 
 -   INDIVIDUALS USED:
 
-    -   \"p4\": \[\"OAK-MOR-982\", \"OAK-MOR-981\",
-        \"OAK-MOR-578.fq.barcodeStripped\"\],
+    -   p4: OAK-MOR-982, OAK-MOR-981,
+        OAK-MOR-578.fq.barcodeStripped,
 
-    -   \"p3\": \[\"OAK-MOR-659.fq.barcodeStripped\",
-        \"OAK-MOR-662.fq.barcodeStripped\", \"OAK-MOR-1055\",
-        \"OAK-MOR-735.fq.barcodeStripped\",
-        \"OAK-MOR-599.fq.barcodeStripped\"\],
+    -   p3: OAK-MOR-659.fq.barcodeStripped,
+        OAK-MOR-662.fq.barcodeStripped, OAK-MOR-1055,
+        OAK-MOR-735.fq.barcodeStripped,
+        OAK-MOR-599.fq.barcodeStripped,
 
-    -   \"p2\": \[\"OAK-MOR-593.fq.barcodeStripped\", \"OAK-MOR-986\"\],
+    -   p2: OAK-MOR-593.fq.barcodeStripped, OAK-MOR-986,
 
-    -   \"p1\": \[\"OAK-MOR-985\", \"OAK-MOR-1144\",
-        \"OAK-MOR-588.fq.barcodeStripped\"\]
+    -   p1: OAK-MOR-985, OAK-MOR-1144,
+        OAK-MOR-588.fq.barcodeStripped
 
-2 -- "Libani-crenata" (n = 350): subsect. *Libani* with *Q. crenata*
+2 -- Libani-crenata (n = 350): subsect. *Libani* with *Q. crenata*
 ====================================================================
 
 -   p4 - Q. chenii, Q. variabilis, and Q. acutissima as outgroups
@@ -43,18 +44,18 @@ title: D-statistic tests conducted
 
 -   INDIVIDUALS USED:
 
-    -   \"p4\": \[\"OAK-MOR-982\", \"OAK-MOR-981\",
-        \"OAK-MOR-578.fq.barcodeStripped\"\],
+    -   p4: OAK-MOR-982, OAK-MOR-981,
+        OAK-MOR-578.fq.barcodeStripped,
 
-    -   \"p3\": \[\"OAK-MOR-191\", \"OAK-MOR-983\",
-        \"OAK-MOR-628.fq.barcodeStripped\", \"OAKS-MOR-585\"\],
+    -   p3: OAK-MOR-191, OAK-MOR-983,
+        OAK-MOR-628.fq.barcodeStripped, OAKS-MOR-585,
 
-    -   \"p2\": \[\"OAK-MOR-593.fq.barcodeStripped\", \"OAK-MOR-986\"\],
+    -   p2: OAK-MOR-593.fq.barcodeStripped, OAK-MOR-986,
 
-    -   \"p1\": \[\"OAK-MOR-985\", \"OAK-MOR-1144\",
-        \"OAK-MOR-588.fq.barcodeStripped\"\]
+    -   p1: OAK-MOR-985, OAK-MOR-1144,
+        OAK-MOR-588.fq.barcodeStripped
 
-3 -- "cerris-crenata" (n = 500): *Q. cerris* with *Q. crenata*
+3 -- cerris-crenata (n = 500): *Q. cerris* with *Q. crenata*
 ==============================================================
 
 -   p4 - Q. chenii, Q. variabilis, and Q. acutissima as outgroups
@@ -67,21 +68,21 @@ title: D-statistic tests conducted
 
 -   INDIVIDUALS USED:
 
-    -   \"p4\": \[\"OAK-MOR-982\", \"OAK-MOR-981\",
-        \"OAK-MOR-578.fq.barcodeStripped\"\],
+    -   p4: OAK-MOR-982, OAK-MOR-981,
+        OAK-MOR-578.fq.barcodeStripped,
 
-    -   \"p3\": \[\"OAK-MOR-736.fq.barcodeStripped\",
-        \"OAK-MOR-591.fq.barcodeStripped\",
-        \"OAK-MOR-728.fq.barcodeStripped\",
-        \"OAK-MOR-729.fq.barcodeStripped\", \"OAK-MOR-1060\",
-        \"OAK-MOR-1061\"\],
+    -   p3: OAK-MOR-736.fq.barcodeStripped,
+        OAK-MOR-591.fq.barcodeStripped,
+        OAK-MOR-728.fq.barcodeStripped,
+        OAK-MOR-729.fq.barcodeStripped, OAK-MOR-1060,
+        OAK-MOR-1061,
 
-    -   \"p2\": \[\"OAK-MOR-593.fq.barcodeStripped\", \"OAK-MOR-986\"\],
+    -   p2: OAK-MOR-593.fq.barcodeStripped, OAK-MOR-986,
 
-    -   \"p1\": \[\"OAK-MOR-985\", \"OAK-MOR-1144\",
-        \"OAK-MOR-588.fq.barcodeStripped\"\]
+    -   p1: OAK-MOR-985, OAK-MOR-1144,
+        OAK-MOR-588.fq.barcodeStripped
 
-4 -- "cerris-afares" (n = 270): *Q. cerris* with *Q. afares*
+4 -- cerris-afares (n = 270): *Q. cerris* with *Q. afares*
 ============================================================
 
 -   p4 - Aegilops oaks as outgroups - Q. macrolepis, Q. brantii, Q.
@@ -95,22 +96,22 @@ title: D-statistic tests conducted
 
 -   INDIVIDUALS USED:
 
-    -   \"p4\":
-        \[\"OAK-MOR-659.fq.barcodeStripped\",\"OAK-MOR-662.fq.barcodeStripped\",
-        \"OAK-MOR-1055\",
-        \"OAK-MOR-735.fq.barcodeStripped\",\"OAK-MOR-599.fq.barcodeStripped\"\],
+    -   p4:
+        OAK-MOR-659.fq.barcodeStripped,OAK-MOR-662.fq.barcodeStripped,
+        OAK-MOR-1055,
+        OAK-MOR-735.fq.barcodeStripped,OAK-MOR-599.fq.barcodeStripped,
 
-    -   \"p3\":
-        \[\"OAK-MOR-591.fq.barcodeStripped\",\"OAK-MOR-736.fq.barcodeStripped\",
-        \"OAK-MOR-1061\", \"OAK-MOR-1060\",
-        \"OAK-MOR-729.fq.barcodeStripped\",
-        \"OAK-MOR-728.fq.barcodeStripped\"\],
+    -   p3:
+        OAK-MOR-591.fq.barcodeStripped,OAK-MOR-736.fq.barcodeStripped,
+        OAK-MOR-1061, OAK-MOR-1060,
+        OAK-MOR-729.fq.barcodeStripped,
+        OAK-MOR-728.fq.barcodeStripped,
 
-    -   \"p2\": \[\"OAK-MOR-983\"\],
+    -   p2: OAK-MOR-983,
 
-    -   \"p1\": \[\"OAKS-MOR-585\", \"OAK-MOR-628.fq.barcodeStripped\"\]
+    -   p1: OAKS-MOR-585, OAK-MOR-628.fq.barcodeStripped
 
-5 -- "suber-ilex" (n = 6,240): *Q. suber* with *Q. ilex*
+5 -- suber-ilex (n = 6,240): *Q. suber* with *Q. ilex*
 ========================================================
 
 -   p4 - sect. Cyclobalanopsis og
@@ -124,15 +125,15 @@ title: D-statistic tests conducted
 
 -   INDIVIDUALS USED:
 
-    -   \"p4\": \[\"DM5\", \"DM20\", \"DM18\", \"DM56\"\],
+    -   p4: DM5, DM20, DM18, DM56,
 
-    -   \"p3\": \[\"OAK-MOR-589.fq.barcodeStripped\", \"OAK-MOR-980\",
-        \"OAK-MOR-1146\"\],
+    -   p3: OAK-MOR-589.fq.barcodeStripped, OAK-MOR-980,
+        OAK-MOR-1146,
 
-    -   \"p2\": \[\"OAK-MOR-1144\", \"OAK-MOR-588.fq.barcodeStripped\",
-        \"OAK-MOR-985\"\]
+    -   p2: OAK-MOR-1144, OAK-MOR-588.fq.barcodeStripped,
+        OAK-MOR-985
 
-6 -- "crenata vs. crenata" (n = 165): all species potentially introgressing with *Q. crenata* as tested above with each of the *Q. crenata* individuals as sister species (to test whether there is a difference in allele sharing between the two Q. crenata individuals)
+6 -- crenata vs. crenata (n = 165): all species potentially introgressing with *Q. crenata* as tested above with each of the *Q. crenata* individuals as sister species (to test whether there is a difference in allele sharing between the two Q. crenata individuals)
 ==========================================================================================================================================================================================================================================================================
 
 -   p4 - Q. chenii, Q. variabilis, and Q. acutissima as outgroups
@@ -145,26 +146,26 @@ title: D-statistic tests conducted
 
 -   INDIVIDUALS USED:
 
-    -   \"p4\": \[\"OAK-MOR-982\", \"OAK-MOR-981\",
-        \"OAK-MOR-578.fq.barcodeStripped\"\],
+    -   p4: OAK-MOR-982, OAK-MOR-981,
+        OAK-MOR-578.fq.barcodeStripped,
 
-    -   \"p3\":
-        \[\"OAK-MOR-659.fq.barcodeStripped\",\"OAK-MOR-662.fq.barcodeStripped\",
-        \"OAK-MOR-1055\",
-        \"OAK-MOR-735.fq.barcodeStripped\",\"OAK-MOR-599.fq.barcodeStripped\",
-        \"OAK-MOR-191\", \"OAK-MOR-983\",
-        \"OAK-MOR-628.fq.barcodeStripped\", \"OAKS-MOR-585\",
-        \"OAK-MOR-727.fq.barcodeStripped\", \"OAK-MOR-1061\",
-        \"OAK-MOR-1060\", \"OAK-MOR-729.fq.barcodeStripped\",
-        \"OAK-MOR-728.fq.barcodeStripped\", \"OAK-MOR-1040\",
-        \"OAK-MOR-591.fq.barcodeStripped\",
-        \"OAK-MOR-736.fq.barcodeStripped\"\],
+    -   p3:
+        OAK-MOR-659.fq.barcodeStripped,OAK-MOR-662.fq.barcodeStripped,
+        OAK-MOR-1055,
+        OAK-MOR-735.fq.barcodeStripped,OAK-MOR-599.fq.barcodeStripped,
+        OAK-MOR-191, OAK-MOR-983,
+        OAK-MOR-628.fq.barcodeStripped, OAKS-MOR-585,
+        OAK-MOR-727.fq.barcodeStripped, OAK-MOR-1061,
+        OAK-MOR-1060, OAK-MOR-729.fq.barcodeStripped,
+        OAK-MOR-728.fq.barcodeStripped, OAK-MOR-1040,
+        OAK-MOR-591.fq.barcodeStripped,
+        OAK-MOR-736.fq.barcodeStripped,
 
-    -   \"p2\": \[\"OAK-MOR-593.fq.barcodeStripped\"\],
+    -   p2: OAK-MOR-593.fq.barcodeStripped,
 
-    -   \"p1\": \[\"OAK-MOR-986\"\]
+    -   p1: OAK-MOR-986
 
-7 -- "partitioned crenata" (n = 3): 5-taxon (partitioned) *D*-statistic test
+7 -- partitioned crenata (n = 3): 5-taxon (partitioned) *D*-statistic test
 ============================================================================
 
 -   p5 - Q. chenii, Q. variabilis, and Q. acutissima as outgroups
@@ -181,63 +182,63 @@ title: D-statistic tests conducted
 
     -   Test 0 : p4 = aegilops, p3 = libani et al
 
-        -   \"p5\": \[\"OAK-MOR-982\", \"OAK-MOR-981\",
-            \"OAK-MOR-578.fq.barcodeStripped\"\],
+        -   p5: OAK-MOR-982, OAK-MOR-981,
+            OAK-MOR-578.fq.barcodeStripped,
 
-        -   \"p4\":
-            \[\"OAK-MOR-659.fq.barcodeStripped\",\"OAK-MOR-662.fq.barcodeStripped\",
-            \"OAK-MOR-1055\",
-            \"OAK-MOR-735.fq.barcodeStripped\",\"OAK-MOR-599.fq.barcodeStripped\"\],
+        -   p4:
+            OAK-MOR-659.fq.barcodeStripped,OAK-MOR-662.fq.barcodeStripped,
+            OAK-MOR-1055,
+            OAK-MOR-735.fq.barcodeStripped,OAK-MOR-599.fq.barcodeStripped,
 
-        -   \"p3\": \[\"OAK-MOR-191\", \"OAK-MOR-983\",
-            \"OAK-MOR-628.fq.barcodeStripped\", \"OAKS-MOR-585\"\],
+        -   p3: OAK-MOR-191, OAK-MOR-983,
+            OAK-MOR-628.fq.barcodeStripped, OAKS-MOR-585,
 
-        -   \"p2\": \[\"OAK-MOR-593.fq.barcodeStripped\",
-            \"OAK-MOR-986\"\],
+        -   p2: OAK-MOR-593.fq.barcodeStripped,
+            OAK-MOR-986,
 
-        -   \"p1\": \[\"OAK-MOR-985\", \"OAK-MOR-1144\",
-            \"OAK-MOR-588.fq.barcodeStripped\"\]
+        -   p1: OAK-MOR-985, OAK-MOR-1144,
+            OAK-MOR-588.fq.barcodeStripped
 
     -   Test 1 : p4 = aegilops, p3 = cerris et al
 
-        -   \"p5\": \[\"OAK-MOR-982\", \"OAK-MOR-981\",
-            \"OAK-MOR-578.fq.barcodeStripped\"\],
+        -   p5: OAK-MOR-982, OAK-MOR-981,
+            OAK-MOR-578.fq.barcodeStripped,
 
-        -   \"p4\":
-            \[\"OAK-MOR-659.fq.barcodeStripped\",\"OAK-MOR-662.fq.barcodeStripped\",
-            \"OAK-MOR-1055\",
-            \"OAK-MOR-735.fq.barcodeStripped\",\"OAK-MOR-599.fq.barcodeStripped\"\],
+        -   p4:
+            OAK-MOR-659.fq.barcodeStripped,OAK-MOR-662.fq.barcodeStripped,
+            OAK-MOR-1055,
+            OAK-MOR-735.fq.barcodeStripped,OAK-MOR-599.fq.barcodeStripped,
 
-        -   \"p3\": \[\"OAK-MOR-727.fq.barcodeStripped\",
-            \"OAK-MOR-1061\", \"OAK-MOR-1060\",
-            \"OAK-MOR-729.fq.barcodeStripped\",
-            \"OAK-MOR-728.fq.barcodeStripped\", \"OAK-MOR-1040\",
-            \"OAK-MOR-591.fq.barcodeStripped\",
-            \"OAK-MOR-736.fq.barcodeStripped\"\],
+        -   p3: OAK-MOR-727.fq.barcodeStripped,
+            OAK-MOR-1061, OAK-MOR-1060,
+            OAK-MOR-729.fq.barcodeStripped,
+            OAK-MOR-728.fq.barcodeStripped, OAK-MOR-1040,
+            OAK-MOR-591.fq.barcodeStripped,
+            OAK-MOR-736.fq.barcodeStripped,
 
-        -   \"p2\": \[\"OAK-MOR-593.fq.barcodeStripped\",
-            \"OAK-MOR-986\"\],
+        -   p2: OAK-MOR-593.fq.barcodeStripped,
+            OAK-MOR-986,
 
-        -   \"p1\": \[\"OAK-MOR-985\", \"OAK-MOR-1144\",
-            \"OAK-MOR-588.fq.barcodeStripped\"\]
+        -   p1: OAK-MOR-985, OAK-MOR-1144,
+            OAK-MOR-588.fq.barcodeStripped
 
     -   Test 2 : p4 = libani et al, p3 = cerris et al
 
-        -   \"p5\": \[\"OAK-MOR-982\", \"OAK-MOR-981\",
-            \"OAK-MOR-578.fq.barcodeStripped\"\],
+        -   p5: OAK-MOR-982, OAK-MOR-981,
+            OAK-MOR-578.fq.barcodeStripped,
 
-        -   \"p4\": \[\"OAK-MOR-191\", \"OAK-MOR-983\",
-            \"OAK-MOR-628.fq.barcodeStripped\", \"OAKS-MOR-585\"\],
+        -   p4: OAK-MOR-191, OAK-MOR-983,
+            OAK-MOR-628.fq.barcodeStripped, OAKS-MOR-585,
 
-        -   \"p3\": \[\"OAK-MOR-727.fq.barcodeStripped\",
-            \"OAK-MOR-1061\",
-            \"OAK-MOR-1060\",\"OAK-MOR-729.fq.barcodeStripped\",
-            \"OAK-MOR-728.fq.barcodeStripped\", \"OAK-MOR-1040\",
-            \"OAK-MOR-591.fq.barcodeStripped\",
-            \"OAK-MOR-736.fq.barcodeStripped\"\],
+        -   p3: OAK-MOR-727.fq.barcodeStripped,
+            OAK-MOR-1061,
+            OAK-MOR-1060,OAK-MOR-729.fq.barcodeStripped,
+            OAK-MOR-728.fq.barcodeStripped, OAK-MOR-1040,
+            OAK-MOR-591.fq.barcodeStripped,
+            OAK-MOR-736.fq.barcodeStripped,
 
-        -   \"p2\": \[\"OAK-MOR-593.fq.barcodeStripped\",
-            \"OAK-MOR-986\"\],
+        -   p2: OAK-MOR-593.fq.barcodeStripped,
+            OAK-MOR-986,
 
-        -   \"p1\": \[\"OAK-MOR-985\", \"OAK-MOR-1144\",
-            \"OAK-MOR-588.fq.barcodeStripped\"\]
+        -   p1: OAK-MOR-985, OAK-MOR-1144,
+            OAK-MOR-588.fq.barcodeStripped

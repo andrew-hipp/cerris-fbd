@@ -1,4 +1,15 @@
 ## check what values of p3 are implicated in introgression
+library(openxlsx)
+library(magrittr)
+source('r_functions.R')
+
+dat.meta <- read.xlsx('../DATA/oakAccessions_cerrisRevision_2021-08-06.xlsx')
+dat.meta$LABEL_taxonOnly <- as.character(dat.meta$LABEL_taxonOnly)
+dat.meta$"Cleaned_NAMES-USE-THIS" <- as.character(dat.meta$"Cleaned_NAMES-USE-THIS")
+dat.meta$tipName <- ifelse(is.na(dat.meta$"Cleaned_NAMES-USE-THIS"),
+                     dat.meta$LABEL_taxonOnly,
+                     dat.meta$"Cleaned_NAMES-USE-THIS")
+
 inds = list(
   cerrisAfares = c("OAK-MOR-591.fq.barcodeStripped","OAK-MOR-736.fq.barcodeStripped","OAK-MOR-1061", "OAK-MOR-1060", "OAK-MOR-729.fq.barcodeStripped","OAK-MOR-728.fq.barcodeStripped"),
   cerrisCrenata = c("OAK-MOR-736.fq.barcodeStripped", "OAK-MOR-591.fq.barcodeStripped", "OAK-MOR-728.fq.barcodeStripped", "OAK-MOR-729.fq.barcodeStripped", "OAK-MOR-1060", "OAK-MOR-1061"),
@@ -13,21 +24,17 @@ dat.taxa <- lapply(sets, function(x) read.csv(paste('bb.dstat.taxa_', x, '_full.
 dat.stat <- lapply(sets, function(x) read.csv(paste('bb.dstat.sorted_', x, '_full.csv', sep = '')))
 names(dat.stat) <- names(dat.taxa) <- sets
 
+out.tab <- matrix('', 0, 5, dimnames = list(NULL, c('test', 'individual', 'D', 'Z', 'p'))
+
 for(i in sets) {
   message(paste('doing', i))
   out <- list(
     D = lapply(inds[[i]], function(x) {dat.stat[[i]]$dstat[grep(x, dat.taxa[[i]]$p3)]}),
     Z = lapply(inds[[i]], function(x) {dat.stat[[i]]$Z[grep(x, dat.taxa[[i]]$p3)]})
   )
-  out$p <- lapply(out$Z, function(x) {
-    out <- pnorm(-sapply(x, abs)) * 2
-    out <- p.adjust(out, 'holm')
-    return(out)
-  })
+  out$p <- lapply(out$Z, z2holm)
 
-  names(out$D) <- names(out$Z) <- names(out$p) <-
-    strsplit(inds[[i]], '.', fixed = T) %>% sapply(FUN = '[', 1) %>%
-    gsub(pattern = "OAK-MOR-|OAKS-MOR-", replacement = "")
+  names(out$D) <- names(out$Z) <- names(out$p) <- styleIt(inds[[i]], 'simple')
 
   pdf(paste('../OUT/P3boxplot_', i, '.pdf', sep = ''), 8.5, 11)
   layout(matrix(1:3, 3))
@@ -36,4 +43,13 @@ for(i in sets) {
   boxplot(out$p, cex.axis = 0.5, main = 'p-value (Holm-Bonferroni corrected)', ylim = c(0, 0.2))
   abline(h = 0.01, lty = 'dashed')
   dev.off()
+
+  names(out$D) <- names(out$Z) <- names(out$p) <- styleIt(inds[[i]], 'full')
+  for(j in names(out$D)) {
+    temp <- c(i, j,  mq(out$D[[i]]), mq(out$Z[[i]]), mq(out$p[[i]]))
+    out.tab <- rbind(out.tab, temp)
+    rm(temp)
+  }
 }
+
+write.csv('../OUT/P3summaries.csv', out.tab)
