@@ -14,8 +14,9 @@ for(i in seq(length(dStats))) {
 
 out <- data.frame(
   numTests = sapply(dStats, dim)[1, ],
-  p = sapply(dStats, function(x) mean_quantile(x$p)),
-  Z = sapply(dStats, function(x) mean_quantile(x$Z))
+  D = sapply(dStats, function(x) mean_quantile(x$dstat))
+  Z = sapply(dStats, function(x) mean_quantile(x$Z)),
+  p = sapply(dStats, function(x) mean_quantile(x$p))
 )
 
 write.csv(out, '../OUT/dStats_test_summary.csv')
