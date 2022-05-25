@@ -17,10 +17,10 @@ gunzip -k ../DATA/cerrisdstat.loci.gz
 # python dStats_cerrisAfares_trojana.py
 python dStats_cerrisTrojana.py
 
+rm ../DATA/cerrisdstat.loci
+
 ipcluster stop --cluster-id="baba"
 
 R CMD BATCH r_plot_dStats.R
 R CMD BATCH r_checkP3.R
 R CMD BATCH r_summarizeTests.R
-
-rm ../DATA/cerrisdstat.loci
