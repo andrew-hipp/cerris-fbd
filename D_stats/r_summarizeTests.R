@@ -14,7 +14,7 @@ for(i in seq(length(dStats))) {
 
 out <- data.frame(
   numTests = sapply(dStats, dim)[1, ],
-  D = sapply(dStats, function(x) mean_quantile(x$dstat))
+  D = sapply(dStats, function(x) mean_quantile(x$dstat)),
   Z = sapply(dStats, function(x) mean_quantile(x$Z)),
   p = sapply(dStats, function(x) mean_quantile(x$p))
 )
