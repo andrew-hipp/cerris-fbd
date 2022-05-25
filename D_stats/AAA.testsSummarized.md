@@ -92,7 +92,7 @@ date: 2022-05-20 notes
 
 -   p2 - Q. afares potential introgressor 2
 
--   p1 - Q. libana 628 - Q. trojana 585
+-   p1 - Q. libani 628 - Q. trojana 585
 
 -   INDIVIDUALS USED:
 
@@ -110,6 +110,66 @@ date: 2022-05-20 notes
     -   p2: OAK-MOR-983,
 
     -   p1: OAKS-MOR-585, OAK-MOR-628.fq.barcodeStripped
+
+4b1 -- cerris-afares | libani (n = 270): *Q. cerris* with *Q. afares*, *Q. libani* as p1
+============================================================
+
+  -   p4 - Aegilops oaks as outgroups - Q. macrolepis, Q. brantii, Q.
+        ithaburensis
+
+  -   p3 - Q. cerris potential introgressor 1
+
+  -   p2 - Q. afares potential introgressor 2
+
+  -   p1 - Q. libani 628
+
+  -   INDIVIDUALS USED:
+
+        -   p4:
+            OAK-MOR-659.fq.barcodeStripped,OAK-MOR-662.fq.barcodeStripped,
+            OAK-MOR-1055,
+            OAK-MOR-735.fq.barcodeStripped,OAK-MOR-599.fq.barcodeStripped,
+
+        -   p3:
+            OAK-MOR-591.fq.barcodeStripped,OAK-MOR-736.fq.barcodeStripped,
+            OAK-MOR-1061, OAK-MOR-1060,
+            OAK-MOR-729.fq.barcodeStripped,
+            OAK-MOR-728.fq.barcodeStripped,
+
+        -   p2: OAK-MOR-983,
+
+        -   p1: OAK-MOR-628.fq.barcodeStripped
+
+4b2 -- cerris-afares | trojana (n = 270): *Q. cerris* with *Q. afares*, *Q. trojana* as p1
+============================================================
+
+  -   p4 - Aegilops oaks as outgroups - Q. macrolepis, Q. brantii, Q.
+        ithaburensis
+
+  -   p3 - Q. cerris potential introgressor 1
+
+  -   p2 - Q. afares potential introgressor 2
+
+  -   p1 - Q. trojana 585
+
+  -   INDIVIDUALS USED:
+
+        -   p4:
+            OAK-MOR-659.fq.barcodeStripped,OAK-MOR-662.fq.barcodeStripped,
+            OAK-MOR-1055,
+            OAK-MOR-735.fq.barcodeStripped,OAK-MOR-599.fq.barcodeStripped,
+
+        -   p3:
+            OAK-MOR-591.fq.barcodeStripped,OAK-MOR-736.fq.barcodeStripped,
+            OAK-MOR-1061, OAK-MOR-1060,
+            OAK-MOR-729.fq.barcodeStripped,
+            OAK-MOR-728.fq.barcodeStripped,
+
+        -   p2: OAK-MOR-983,
+
+        -   p1: OAKS-MOR-585
+
+
 
 5 -- suber-ilex (n = 6,240): *Q. suber* with *Q. ilex*
 ========================================================
