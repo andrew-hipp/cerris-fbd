@@ -34,7 +34,7 @@ for(i in sets) {
   )
   out$p <- lapply(out$Z, z2holm)
 
-  names(out$D) <- names(out$Z) <- names(out$p) <- styleIt(inds[[i]], 'simple')
+  names(out$D) <- names(out$Z) <- names(out$p) <- styleIt(inds[[i]], style='simple')
 
   pdf(paste('../OUT/P3boxplot_', i, '.pdf', sep = ''), 8.5, 11)
   layout(matrix(1:3, 3))
@@ -44,7 +44,7 @@ for(i in sets) {
   abline(h = 0.01, lty = 'dashed')
   dev.off()
 
-  names(out$D) <- names(out$Z) <- names(out$p) <- styleIt(inds[[i]], 'full')
+  names(out$D) <- names(out$Z) <- names(out$p) <- styleIt(inds[[i]], style='full')
   for(j in names(out$D)) {
     temp <- c(i, j,  mq(out$D[[i]]), mq(out$Z[[i]]), mq(out$p[[i]]))
     out.tab <- rbind(out.tab, temp)
