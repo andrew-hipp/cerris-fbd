@@ -3,12 +3,14 @@ library(openxlsx)
 library(magrittr)
 source('r_functions.R')
 
-dat.meta <- read.xlsx('../DATA/oakAccessions_cerrisRevision_2021-08-06.xlsx')
-dat.meta$LABEL_taxonOnly <- as.character(dat.meta$LABEL_taxonOnly)
-dat.meta$"Cleaned_NAMES-USE-THIS" <- as.character(dat.meta$"Cleaned_NAMES-USE-THIS")
-dat.meta$tipName <- ifelse(is.na(dat.meta$"Cleaned_NAMES-USE-THIS"),
-                     dat.meta$LABEL_taxonOnly,
-                     dat.meta$"Cleaned_NAMES-USE-THIS")
+if(!exists('dat.meta')) {
+  dat.meta <- read.xlsx('../DATA/oakAccessions_cerrisRevision_2021-08-06.xlsx')
+  dat.meta$LABEL_taxonOnly <- as.character(dat.meta$LABEL_taxonOnly)
+  dat.meta$"Cleaned_NAMES-USE-THIS" <- as.character(dat.meta$"Cleaned_NAMES-USE-THIS")
+  dat.meta$tipName <- ifelse(is.na(dat.meta$"Cleaned_NAMES-USE-THIS"),
+                       dat.meta$LABEL_taxonOnly,
+                       dat.meta$"Cleaned_NAMES-USE-THIS")
+                     }
 
 inds = list(
   cerrisAfares = c("OAK-MOR-591.fq.barcodeStripped","OAK-MOR-736.fq.barcodeStripped","OAK-MOR-1061", "OAK-MOR-1060", "OAK-MOR-729.fq.barcodeStripped","OAK-MOR-728.fq.barcodeStripped"),
