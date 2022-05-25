@@ -24,7 +24,7 @@ dat.taxa <- lapply(sets, function(x) read.csv(paste('bb.dstat.taxa_', x, '_full.
 dat.stat <- lapply(sets, function(x) read.csv(paste('bb.dstat.sorted_', x, '_full.csv', sep = '')))
 names(dat.stat) <- names(dat.taxa) <- sets
 
-out.tab <- matrix('', 0, 5, dimnames = list(NULL, c('test', 'individual', 'D', 'Z', 'p'))
+out.tab <- matrix('', 0, 5, dimnames = list(NULL, c('test', 'individual', 'D', 'Z', 'p')))
 
 for(i in sets) {
   message(paste('doing', i))
