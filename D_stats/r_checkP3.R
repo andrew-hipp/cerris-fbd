@@ -48,7 +48,7 @@ for(i in sets) {
 
   names(out$D) <- names(out$Z) <- names(out$p) <- styleIt(inds[[i]], style='full')
   for(j in names(out$D)) {
-    temp <- c(i, j,  mq(out$D[[i]]), mq(out$Z[[i]]), mq(out$p[[i]]))
+    temp <- c(i, j,  mq(out$D[[j]]), mq(out$Z[[j]]), mq(out$p[[j]]))
     out.tab <- rbind(out.tab, temp)
     rm(temp)
   }
