@@ -20,7 +20,7 @@ bb = ipa.baba(data = locifile, newick = newick)
 #  p4 - Aegilops oaks as outgroups - Q. macrolepis, Q. brantii, Q. ithaburensis
 #  p3 - Q. cerris potential introgressor 1
 #  p2 - Q. trojana potential introgressor 2
-#  p1 - Q. libana 628
+#  p1 - Q. libani 628
 
 bb.generate_tests_from_tree(
     constraint_dict={
