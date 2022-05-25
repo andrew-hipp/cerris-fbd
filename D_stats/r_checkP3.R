@@ -55,7 +55,7 @@ for(i in sets) {
     out.tab <- rbind(out.tab, temp)
     rm(temp)
   } # close j
-  out.tab <- rbind(out.tab, rep('-', dim(out.tab[2]))) # add empty lines
+  out.tab <- rbind(out.tab, rep('-', dim(out.tab)[2])) # add empty lines
 }
 
 row.names(out.tab) <- NULL
