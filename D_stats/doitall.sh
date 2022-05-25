@@ -2,7 +2,7 @@
 
 R CMD BATCH r_getTips.R
 
-ipcluster start -n 32 --cluster-id="baba" --daemonize
+ipcluster start -n 48 --cluster-id="baba" --daemonize
 
 gunzip -k ../DATA/cerrisdstat.loci.gz
 
