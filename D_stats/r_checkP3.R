@@ -54,4 +54,5 @@ for(i in sets) {
   }
 }
 
-write.csv('../OUT/P3summaries.csv', out.tab)
+row.names(out.tab) <- NULL
+write.csv(out.tab, '../OUT/P3summaries.csv')
