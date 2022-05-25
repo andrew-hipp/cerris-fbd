@@ -1,11 +1,11 @@
 ---
 title: D-statistic tests conducted for
 author: Andrew Hipp, ahipp@mortonarb.org
-date: 2022-05-20 notes
+update: 25 May 2022
 ---
 
 1 -- Aegilops-crenata (n = 450 tests): introgression of subsect. *Aegilops* with *Q. crenata*
-===============================================================================================
+===
 
 -   p4 - Q. chenii, Q. variabilis, and Q. acutissima as outgroups
 
@@ -32,7 +32,7 @@ date: 2022-05-20 notes
         OAK-MOR-588.fq.barcodeStripped
 
 2 -- Libani-crenata (n = 350): subsect. *Libani* with *Q. crenata*
-====================================================================
+===
 
 -   p4 - Q. chenii, Q. variabilis, and Q. acutissima as outgroups
 
@@ -56,7 +56,7 @@ date: 2022-05-20 notes
         OAK-MOR-588.fq.barcodeStripped
 
 3 -- cerris-crenata (n = 500): *Q. cerris* with *Q. crenata*
-==============================================================
+===
 
 -   p4 - Q. chenii, Q. variabilis, and Q. acutissima as outgroups
 
@@ -83,7 +83,7 @@ date: 2022-05-20 notes
         OAK-MOR-588.fq.barcodeStripped
 
 4 -- cerris-afares (n = 270): *Q. cerris* with *Q. afares*
-============================================================
+===
 
 -   p4 - Aegilops oaks as outgroups - Q. macrolepis, Q. brantii, Q.
     ithaburensis
@@ -112,7 +112,7 @@ date: 2022-05-20 notes
     -   p1: OAKS-MOR-585, OAK-MOR-628.fq.barcodeStripped
 
 4b1 -- cerris-afares | libani (n = 270): *Q. cerris* with *Q. afares*, *Q. libani* as p1
-============================================================
+===
 
   -   p4 - Aegilops oaks as outgroups - Q. macrolepis, Q. brantii, Q.
         ithaburensis
@@ -141,7 +141,7 @@ date: 2022-05-20 notes
         -   p1: OAK-MOR-628.fq.barcodeStripped
 
 4b2 -- cerris-afares | trojana (n = 270): *Q. cerris* with *Q. afares*, *Q. trojana* as p1
-============================================================
+===
 
   -   p4 - Aegilops oaks as outgroups - Q. macrolepis, Q. brantii, Q.
         ithaburensis
@@ -169,10 +169,37 @@ date: 2022-05-20 notes
 
         -   p1: OAKS-MOR-585
 
+4b3 -- cerris-trojana (n = 270): *Q. cerris* with *Q. trojana*, *Q. libani* as p1
+===
 
+  -   p4 - Aegilops oaks as outgroups - Q. macrolepis, Q. brantii, Q.
+        ithaburensis
+
+  -   p3 - Q. cerris potential introgressor 1
+
+  -   p2 - Q. trojana 585
+
+  -   p1 - Q. libani 628
+
+  -   INDIVIDUALS USED:
+
+        -   p4:
+            OAK-MOR-659.fq.barcodeStripped,OAK-MOR-662.fq.barcodeStripped,
+            OAK-MOR-1055,
+            OAK-MOR-735.fq.barcodeStripped,OAK-MOR-599.fq.barcodeStripped,
+
+        -   p3:
+            OAK-MOR-591.fq.barcodeStripped,OAK-MOR-736.fq.barcodeStripped,
+            OAK-MOR-1061, OAK-MOR-1060,
+            OAK-MOR-729.fq.barcodeStripped,
+            OAK-MOR-728.fq.barcodeStripped,
+
+        -   p2: OAKS-MOR-585,
+
+        -   p1: OAK-MOR-628.fq.barcodeStripped
 
 5 -- suber-ilex (n = 6,240): *Q. suber* with *Q. ilex*
-========================================================
+===
 
 -   p4 - sect. Cyclobalanopsis og
 
@@ -193,8 +220,8 @@ date: 2022-05-20 notes
     -   p2: OAK-MOR-1144, OAK-MOR-588.fq.barcodeStripped,
         OAK-MOR-985
 
-6 -- crenata vs. crenata (n = 165): all species potentially introgressing with *Q. crenata* as tested above with each of the *Q. crenata* individuals as sister species (to test whether there is a difference in allele sharing between the two Q. crenata individuals)
-==========================================================================================================================================================================================================================================================================
+6 -- crenata vs. crenata (n = 165): all species potentially introgressing with *Q. crenata* as tested above with each of the *Q. crenata* individuals as sister species
+===
 
 -   p4 - Q. chenii, Q. variabilis, and Q. acutissima as outgroups
 
