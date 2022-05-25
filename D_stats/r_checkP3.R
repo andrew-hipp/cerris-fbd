@@ -54,7 +54,8 @@ for(i in sets) {
     if(mean(out$p[[j]]) <= 0.0001) temp[6] = '***'
     out.tab <- rbind(out.tab, temp)
     rm(temp)
-  }
+  } # close j
+  out.tab <- rbind(out.tab, rep('-', dim(out.tab[2]))) # add empty lines
 }
 
 row.names(out.tab) <- NULL
