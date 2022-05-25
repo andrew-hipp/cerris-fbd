@@ -9,7 +9,7 @@ dat.meta$"Cleaned_NAMES-USE-THIS" <- as.character(dat.meta$"Cleaned_NAMES-USE-TH
 dat.meta$tipName <- ifelse(is.na(dat.meta$"Cleaned_NAMES-USE-THIS"),
                        dat.meta$LABEL_taxonOnly,
                        dat.meta$"Cleaned_NAMES-USE-THIS")
-                       
+
 inds = list(
   cerrisAfares = c("OAK-MOR-591.fq.barcodeStripped","OAK-MOR-736.fq.barcodeStripped","OAK-MOR-1061", "OAK-MOR-1060", "OAK-MOR-729.fq.barcodeStripped","OAK-MOR-728.fq.barcodeStripped"),
   cerrisCrenata = c("OAK-MOR-736.fq.barcodeStripped", "OAK-MOR-591.fq.barcodeStripped", "OAK-MOR-728.fq.barcodeStripped", "OAK-MOR-729.fq.barcodeStripped", "OAK-MOR-1060", "OAK-MOR-1061"),
@@ -18,7 +18,8 @@ inds = list(
   aegilopsCrenata = c("OAK-MOR-659.fq.barcodeStripped", "OAK-MOR-662.fq.barcodeStripped", "OAK-MOR-1055", "OAK-MOR-735.fq.barcodeStripped", "OAK-MOR-599.fq.barcodeStripped"),
   suberIlex = c("OAK-MOR-589.fq.barcodeStripped", "OAK-MOR-980", "OAK-MOR-1146"),
   cerrisAfares_libani = c("OAK-MOR-591.fq.barcodeStripped","OAK-MOR-736.fq.barcodeStripped","OAK-MOR-1061", "OAK-MOR-1060", "OAK-MOR-729.fq.barcodeStripped","OAK-MOR-728.fq.barcodeStripped"),
-  cerrisAfares_trojana = c("OAK-MOR-591.fq.barcodeStripped","OAK-MOR-736.fq.barcodeStripped","OAK-MOR-1061", "OAK-MOR-1060", "OAK-MOR-729.fq.barcodeStripped","OAK-MOR-728.fq.barcodeStripped")
+  cerrisAfares_trojana = c("OAK-MOR-591.fq.barcodeStripped","OAK-MOR-736.fq.barcodeStripped","OAK-MOR-1061", "OAK-MOR-1060", "OAK-MOR-729.fq.barcodeStripped","OAK-MOR-728.fq.barcodeStripped"),
+  cerrisTrojana = c("OAK-MOR-591.fq.barcodeStripped","OAK-MOR-736.fq.barcodeStripped","OAK-MOR-1061", "OAK-MOR-1060", "OAK-MOR-729.fq.barcodeStripped","OAK-MOR-728.fq.barcodeStripped")
   ) # close list
 sets <- names(inds)
 
