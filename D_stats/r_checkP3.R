@@ -26,7 +26,7 @@ dat.taxa <- lapply(sets, function(x) read.csv(paste('bb.dstat.taxa_', x, '_full.
 dat.stat <- lapply(sets, function(x) read.csv(paste('bb.dstat.sorted_', x, '_full.csv', sep = '')))
 names(dat.stat) <- names(dat.taxa) <- sets
 
-out.tab <- matrix('', 0, 5, dimnames = list(NULL, c('test', 'individual', 'D', 'Z', 'p')))
+out.tab <- matrix('', 0, 6, dimnames = list(NULL, c('test', 'individual', 'D', 'Z', 'p', 'sign.')))
 
 for(i in sets) {
   message(paste('doing', i))
@@ -48,7 +48,10 @@ for(i in sets) {
 
   names(out$D) <- names(out$Z) <- names(out$p) <- styleIt(inds[[i]], style='full')
   for(j in names(out$D)) {
-    temp <- c(i, j,  mq(out$D[[j]]), mq(out$Z[[j]]), mq(out$p[[j]]))
+    temp <- c(i, j,  mq(out$D[[j]]), mq(out$Z[[j]]), mq(out$p[[j]]), '')
+    if(mean(out$p[[j]])) <= 0.01, temp[6] = '*'
+    if(mean(out$p[[j]])) <= 0.001, temp[6] = '**'
+    if(mean(out$p[[j]])) <= 0.0001, temp[6] = '***'    
     out.tab <- rbind(out.tab, temp)
     rm(temp)
   }
