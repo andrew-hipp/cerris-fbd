@@ -111,7 +111,7 @@ update: 25 May 2022
 
     -   p1: OAKS-MOR-585, OAK-MOR-628.fq.barcodeStripped
 
-4b1 -- cerris-afares | libani (n = 270): *Q. cerris* with *Q. afares*, *Q. libani* as p1
+4b1 -- cerris-afares | libani (n = 90): *Q. cerris* with *Q. afares*, *Q. libani* as p1
 ===
 
   -   p4 - Aegilops oaks as outgroups - Q. macrolepis, Q. brantii, Q.
@@ -140,7 +140,7 @@ update: 25 May 2022
 
         -   p1: OAK-MOR-628.fq.barcodeStripped
 
-4b2 -- cerris-afares | trojana (n = 270): *Q. cerris* with *Q. afares*, *Q. trojana* as p1
+4b2 -- cerris-afares | trojana (n = 90): *Q. cerris* with *Q. afares*, *Q. trojana* as p1
 ===
 
   -   p4 - Aegilops oaks as outgroups - Q. macrolepis, Q. brantii, Q.
@@ -169,7 +169,7 @@ update: 25 May 2022
 
         -   p1: OAKS-MOR-585
 
-4b3 -- cerris-trojana (n = 270): *Q. cerris* with *Q. trojana*, *Q. libani* as p1
+4b3 -- cerris-trojana (n = 90): *Q. cerris* with *Q. trojana*, *Q. libani* as p1
 ===
 
   -   p4 - Aegilops oaks as outgroups - Q. macrolepis, Q. brantii, Q.
