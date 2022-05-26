@@ -1,0 +1,91 @@
+,p1,p2,p3,p4
+42,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-591.fq.barcodeStripped'],['OAK-MOR-662.fq.barcodeStripped']
+12,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-591.fq.barcodeStripped'],"['OAK-MOR-659.fq.barcodeStripped', 'OAK-MOR-662.fq.barcodeStripped']"
+2,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-591.fq.barcodeStripped'],"['OAK-MOR-659.fq.barcodeStripped', 'OAK-MOR-662.fq.barcodeStripped', 'OAK-MOR-1055', 'OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+32,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-591.fq.barcodeStripped'],['OAK-MOR-659.fq.barcodeStripped']
+40,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-591.fq.barcodeStripped', 'OAK-MOR-736.fq.barcodeStripped']",['OAK-MOR-662.fq.barcodeStripped']
+10,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-591.fq.barcodeStripped', 'OAK-MOR-736.fq.barcodeStripped']","['OAK-MOR-659.fq.barcodeStripped', 'OAK-MOR-662.fq.barcodeStripped']"
+52,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-591.fq.barcodeStripped'],['OAK-MOR-1055']
+62,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-591.fq.barcodeStripped'],"['OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+0,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-591.fq.barcodeStripped', 'OAK-MOR-736.fq.barcodeStripped']","['OAK-MOR-659.fq.barcodeStripped', 'OAK-MOR-662.fq.barcodeStripped', 'OAK-MOR-1055', 'OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+30,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-591.fq.barcodeStripped', 'OAK-MOR-736.fq.barcodeStripped']",['OAK-MOR-659.fq.barcodeStripped']
+22,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-591.fq.barcodeStripped'],"['OAK-MOR-1055', 'OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+20,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-591.fq.barcodeStripped', 'OAK-MOR-736.fq.barcodeStripped']","['OAK-MOR-1055', 'OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+72,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-591.fq.barcodeStripped'],['OAK-MOR-735.fq.barcodeStripped']
+50,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-591.fq.barcodeStripped', 'OAK-MOR-736.fq.barcodeStripped']",['OAK-MOR-1055']
+70,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-591.fq.barcodeStripped', 'OAK-MOR-736.fq.barcodeStripped']",['OAK-MOR-735.fq.barcodeStripped']
+43,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-736.fq.barcodeStripped'],['OAK-MOR-662.fq.barcodeStripped']
+60,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-591.fq.barcodeStripped', 'OAK-MOR-736.fq.barcodeStripped']","['OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+13,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-736.fq.barcodeStripped'],"['OAK-MOR-659.fq.barcodeStripped', 'OAK-MOR-662.fq.barcodeStripped']"
+33,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-736.fq.barcodeStripped'],['OAK-MOR-659.fq.barcodeStripped']
+3,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-736.fq.barcodeStripped'],"['OAK-MOR-659.fq.barcodeStripped', 'OAK-MOR-662.fq.barcodeStripped', 'OAK-MOR-1055', 'OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+23,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-736.fq.barcodeStripped'],"['OAK-MOR-1055', 'OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+53,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-736.fq.barcodeStripped'],['OAK-MOR-1055']
+73,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-736.fq.barcodeStripped'],['OAK-MOR-735.fq.barcodeStripped']
+63,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-736.fq.barcodeStripped'],"['OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+17,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-1060'],"['OAK-MOR-659.fq.barcodeStripped', 'OAK-MOR-662.fq.barcodeStripped']"
+47,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-1060'],['OAK-MOR-662.fq.barcodeStripped']
+44,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-1061', 'OAK-MOR-1060']",['OAK-MOR-662.fq.barcodeStripped']
+7,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-1060'],"['OAK-MOR-659.fq.barcodeStripped', 'OAK-MOR-662.fq.barcodeStripped', 'OAK-MOR-1055', 'OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+34,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-1061', 'OAK-MOR-1060']",['OAK-MOR-659.fq.barcodeStripped']
+36,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-1061'],['OAK-MOR-659.fq.barcodeStripped']
+46,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-1061'],['OAK-MOR-662.fq.barcodeStripped']
+37,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-1060'],['OAK-MOR-659.fq.barcodeStripped']
+16,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-1061'],"['OAK-MOR-659.fq.barcodeStripped', 'OAK-MOR-662.fq.barcodeStripped']"
+41,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-1061', 'OAK-MOR-1060', 'OAK-MOR-729.fq.barcodeStripped', 'OAK-MOR-728.fq.barcodeStripped']",['OAK-MOR-662.fq.barcodeStripped']
+48,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-729.fq.barcodeStripped'],['OAK-MOR-662.fq.barcodeStripped']
+14,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-1061', 'OAK-MOR-1060']","['OAK-MOR-659.fq.barcodeStripped', 'OAK-MOR-662.fq.barcodeStripped']"
+18,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-729.fq.barcodeStripped'],"['OAK-MOR-659.fq.barcodeStripped', 'OAK-MOR-662.fq.barcodeStripped']"
+4,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-1061', 'OAK-MOR-1060']","['OAK-MOR-659.fq.barcodeStripped', 'OAK-MOR-662.fq.barcodeStripped', 'OAK-MOR-1055', 'OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+31,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-1061', 'OAK-MOR-1060', 'OAK-MOR-729.fq.barcodeStripped', 'OAK-MOR-728.fq.barcodeStripped']",['OAK-MOR-659.fq.barcodeStripped']
+11,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-1061', 'OAK-MOR-1060', 'OAK-MOR-729.fq.barcodeStripped', 'OAK-MOR-728.fq.barcodeStripped']","['OAK-MOR-659.fq.barcodeStripped', 'OAK-MOR-662.fq.barcodeStripped']"
+45,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-729.fq.barcodeStripped', 'OAK-MOR-728.fq.barcodeStripped']",['OAK-MOR-662.fq.barcodeStripped']
+6,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-1061'],"['OAK-MOR-659.fq.barcodeStripped', 'OAK-MOR-662.fq.barcodeStripped', 'OAK-MOR-1055', 'OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+26,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-1061'],"['OAK-MOR-1055', 'OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+38,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-729.fq.barcodeStripped'],['OAK-MOR-659.fq.barcodeStripped']
+35,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-729.fq.barcodeStripped', 'OAK-MOR-728.fq.barcodeStripped']",['OAK-MOR-659.fq.barcodeStripped']
+15,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-729.fq.barcodeStripped', 'OAK-MOR-728.fq.barcodeStripped']","['OAK-MOR-659.fq.barcodeStripped', 'OAK-MOR-662.fq.barcodeStripped']"
+54,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-1061', 'OAK-MOR-1060']",['OAK-MOR-1055']
+24,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-1061', 'OAK-MOR-1060']","['OAK-MOR-1055', 'OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+49,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-728.fq.barcodeStripped'],['OAK-MOR-662.fq.barcodeStripped']
+39,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-728.fq.barcodeStripped'],['OAK-MOR-659.fq.barcodeStripped']
+27,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-1060'],"['OAK-MOR-1055', 'OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+19,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-728.fq.barcodeStripped'],"['OAK-MOR-659.fq.barcodeStripped', 'OAK-MOR-662.fq.barcodeStripped']"
+56,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-1061'],['OAK-MOR-1055']
+57,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-1060'],['OAK-MOR-1055']
+76,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-1061'],['OAK-MOR-735.fq.barcodeStripped']
+1,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-1061', 'OAK-MOR-1060', 'OAK-MOR-729.fq.barcodeStripped', 'OAK-MOR-728.fq.barcodeStripped']","['OAK-MOR-659.fq.barcodeStripped', 'OAK-MOR-662.fq.barcodeStripped', 'OAK-MOR-1055', 'OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+8,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-729.fq.barcodeStripped'],"['OAK-MOR-659.fq.barcodeStripped', 'OAK-MOR-662.fq.barcodeStripped', 'OAK-MOR-1055', 'OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+66,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-1061'],"['OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+74,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-1061', 'OAK-MOR-1060']",['OAK-MOR-735.fq.barcodeStripped']
+64,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-1061', 'OAK-MOR-1060']","['OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+67,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-1060'],"['OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+77,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-1060'],['OAK-MOR-735.fq.barcodeStripped']
+58,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-729.fq.barcodeStripped'],['OAK-MOR-1055']
+51,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-1061', 'OAK-MOR-1060', 'OAK-MOR-729.fq.barcodeStripped', 'OAK-MOR-728.fq.barcodeStripped']",['OAK-MOR-1055']
+28,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-729.fq.barcodeStripped'],"['OAK-MOR-1055', 'OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+59,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-728.fq.barcodeStripped'],['OAK-MOR-1055']
+5,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-729.fq.barcodeStripped', 'OAK-MOR-728.fq.barcodeStripped']","['OAK-MOR-659.fq.barcodeStripped', 'OAK-MOR-662.fq.barcodeStripped', 'OAK-MOR-1055', 'OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+9,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-728.fq.barcodeStripped'],"['OAK-MOR-659.fq.barcodeStripped', 'OAK-MOR-662.fq.barcodeStripped', 'OAK-MOR-1055', 'OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+55,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-729.fq.barcodeStripped', 'OAK-MOR-728.fq.barcodeStripped']",['OAK-MOR-1055']
+78,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-729.fq.barcodeStripped'],['OAK-MOR-735.fq.barcodeStripped']
+21,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-1061', 'OAK-MOR-1060', 'OAK-MOR-729.fq.barcodeStripped', 'OAK-MOR-728.fq.barcodeStripped']","['OAK-MOR-1055', 'OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+68,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-729.fq.barcodeStripped'],"['OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+25,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-729.fq.barcodeStripped', 'OAK-MOR-728.fq.barcodeStripped']","['OAK-MOR-1055', 'OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+89,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-728.fq.barcodeStripped'],['OAK-MOR-599.fq.barcodeStripped']
+29,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-728.fq.barcodeStripped'],"['OAK-MOR-1055', 'OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+83,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-736.fq.barcodeStripped'],['OAK-MOR-599.fq.barcodeStripped']
+61,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-1061', 'OAK-MOR-1060', 'OAK-MOR-729.fq.barcodeStripped', 'OAK-MOR-728.fq.barcodeStripped']","['OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+82,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-591.fq.barcodeStripped'],['OAK-MOR-599.fq.barcodeStripped']
+71,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-1061', 'OAK-MOR-1060', 'OAK-MOR-729.fq.barcodeStripped', 'OAK-MOR-728.fq.barcodeStripped']",['OAK-MOR-735.fq.barcodeStripped']
+65,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-729.fq.barcodeStripped', 'OAK-MOR-728.fq.barcodeStripped']","['OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+75,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-729.fq.barcodeStripped', 'OAK-MOR-728.fq.barcodeStripped']",['OAK-MOR-735.fq.barcodeStripped']
+69,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-728.fq.barcodeStripped'],"['OAK-MOR-735.fq.barcodeStripped', 'OAK-MOR-599.fq.barcodeStripped']"
+79,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-728.fq.barcodeStripped'],['OAK-MOR-735.fq.barcodeStripped']
+80,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-591.fq.barcodeStripped', 'OAK-MOR-736.fq.barcodeStripped']",['OAK-MOR-599.fq.barcodeStripped']
+85,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-729.fq.barcodeStripped', 'OAK-MOR-728.fq.barcodeStripped']",['OAK-MOR-599.fq.barcodeStripped']
+88,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-729.fq.barcodeStripped'],['OAK-MOR-599.fq.barcodeStripped']
+81,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-1061', 'OAK-MOR-1060', 'OAK-MOR-729.fq.barcodeStripped', 'OAK-MOR-728.fq.barcodeStripped']",['OAK-MOR-599.fq.barcodeStripped']
+87,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-1060'],['OAK-MOR-599.fq.barcodeStripped']
+86,['OAKS-MOR-585'],['OAK-MOR-983'],['OAK-MOR-1061'],['OAK-MOR-599.fq.barcodeStripped']
+84,['OAKS-MOR-585'],['OAK-MOR-983'],"['OAK-MOR-1061', 'OAK-MOR-1060']",['OAK-MOR-599.fq.barcodeStripped']
