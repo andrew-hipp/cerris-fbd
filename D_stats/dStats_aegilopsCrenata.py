@@ -32,8 +32,8 @@ bb.generate_tests_from_tree(
 
 bb.run(ipyclient)
 
-out_macrolepisCrenata = bb.results_table.sort_values(by="Z", ascending=False)
-taxa_macrolepisCrenata = bb.taxon_table.iloc[out_macrolepisCrenata.index]
+out_aegilopsCrenata = bb.results_table.sort_values(by="Z", ascending=False)
+taxa_aegilopsCrenata = bb.taxon_table.iloc[out_aegilopsCrenata.index]
 
-out_macrolepisCrenata.to_csv('bb.dstat.sorted_macrolepisCrenata_full.csv', sep = ',')
-taxa_macrolepisCrenata.to_csv('bb.dstat.taxa_macrolepisCrenata_full.csv', sep = ',')
+out_aegilopsCrenata.to_csv('bb.dstat.sorted_aegilopsCrenata_full.csv', sep = ',')
+taxa_aegilopsCrenata.to_csv('bb.dstat.taxa_aegilopsCrenata_full.csv', sep = ',')
