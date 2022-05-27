@@ -16,7 +16,10 @@ out <- data.frame(
   numTests = sapply(dStats, dim)[1, ],
   D = sapply(dStats, function(x) mean_quantile(x$dstat)),
   Z = sapply(dStats, function(x) mean_quantile(x$Z)),
-  p = sapply(dStats, function(x) mean_quantile(x$p))
+  p = sapply(dStats, function(x) mean_quantile(x$p)),
+  'prop. sign (0.01)' =
+    sapply(dStats, function(x) sum(x$p <= 0.01) / length(x$p)) %>%
+    round(roundTo)
 )
 
 write.csv(out, '../OUT/dStats_test_summary.csv')

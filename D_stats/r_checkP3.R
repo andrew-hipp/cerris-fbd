@@ -27,7 +27,7 @@ dat.taxa <- lapply(sets, function(x) read.csv(paste('bb.dstat.taxa_', x, '_full.
 dat.stat <- lapply(sets, function(x) read.csv(paste('bb.dstat.sorted_', x, '_full.csv', sep = '')))
 names(dat.stat) <- names(dat.taxa) <- sets
 
-out.tab <- matrix('', 0, 7, dimnames = list(NULL, c('test', 'individual', 'n', 'D', 'Z', 'p', 'sign. level')))
+out.tab <- matrix('', 0, 8, dimnames = list(NULL, c('test', 'individual', 'n', 'D', 'Z', 'p', 'prop. sign (0.01)', 'sign. level')))
 
 for(i in sets) {
   message(paste('doing', i))
@@ -49,10 +49,13 @@ for(i in sets) {
 
   names(out$D) <- names(out$Z) <- names(out$p) <- styleIt(inds[[i]], style='full')
   for(j in names(out$D)) {
-    temp <- c(i, j,  length(out$D[[j]]), mq(out$D[[j]]), mq(out$Z[[j]]), mq(out$p[[j]]), '')
-    if(mean(out$p[[j]]) <= 0.01) temp[7] = '*'
-    if(mean(out$p[[j]]) <= 0.001) temp[7] = '**'
-    if(mean(out$p[[j]]) <= 0.0001) temp[7] = '***'
+    temp <- c(i, j,  length(out$D[[j]]), mq(out$D[[j]]), mq(out$Z[[j]]), mq(out$p[[j]]), '', '')
+    temp[7] <-
+      (sum(out$p[[j]] <= 0.01) / length(out$p[[j]])) %>%
+      round(3)
+    if(mean(out$p[[j]]) <= 0.01) temp[8] = '*'
+    if(mean(out$p[[j]]) <= 0.001) temp[8] = '**'
+    if(mean(out$p[[j]]) <= 0.0001) temp[8] = '***'
     out.tab <- rbind(out.tab, temp)
     rm(temp)
   } # close j

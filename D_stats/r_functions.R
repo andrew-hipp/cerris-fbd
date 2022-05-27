@@ -17,9 +17,10 @@ styleIt = function(x, dat = dat.meta, style = c('simple', 'full'),
 
 rt <- function(x, figs = roundTo) round(x, figs)
 
-mean_quantile <- mq <- function(x, lo = 0.025, hi = 0.975) {
-  paste(rt(mean(x)), ' [', rt(quantile(x, lo)), ',', rt(quantile(x, hi)),']', sep  = '')
-}
+mean_quantile <- mq <-
+  function(x, lo = 0.025, hi = 0.975) {
+    paste(rt(mean(x)), ' [', rt(quantile(x, lo)), ',', rt(quantile(x, hi)),']', sep  = '')
+  }
 
 z2holm <- function(z) {
   out <- pnorm(-sapply(z, abs)) * 2
