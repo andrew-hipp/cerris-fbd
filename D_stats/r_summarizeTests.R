@@ -20,3 +20,8 @@ out <- data.frame(
 )
 
 write.csv(out, '../OUT/dStats_test_summary.csv')
+
+dStats.partitioned <- read.csv('dstat_partitionedCrenata_full.csv')
+dStats.partitioned$pHolm <- sapply(dStats.partitioned$Z, z2holm)
+names(dStats.partitioned)[1:2] <- c('test', 'stat')
+write.csv(dStats.partitioned, 'dstat_partitionedCrenata_pHolm.csv', row.names = F)
