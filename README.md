@@ -1,7 +1,7 @@
 # cerris-fbd
 _Quercus_ sect. _Cerris_ fossilized birth-death analyses
 Denk et al. in prep
-(ahipp@mortonarb.org)
+(ahipp@mortonarb.org)  
 [![DOI](https://zenodo.org/badge/427562448.svg)](https://zenodo.org/badge/latestdoi/427562448)
 
 ## Analysis files
