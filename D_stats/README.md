@@ -5,6 +5,9 @@
 Runs 4-taxon ABBA-BABA (d-statistic) tests for _Cerris_ data  
 Follows: https://ipyrad.readthedocs.io/en/master/API-analysis/cookbook-abba-baba.html  
 
+## Quick start
+The easiest way to replicate analyses here is to navigate into this folder and use `sh doitall.sh` to run all scripts in order.
+
 ## steps
 ### 1. subset tree and write
 Execute `getTips.R` within R to subset the RAD-seq tree and write the subsetted tree. This will be needed by ipyrad.
