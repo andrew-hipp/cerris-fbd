@@ -25,7 +25,7 @@ bb = ipa.baba(data = locifile, newick = newick)
 bb.generate_tests_from_tree(
     constraint_dict={
         "p4": ["OAK-MOR-982", "OAK-MOR-981", "OAK-MOR-578.fq.barcodeStripped"],
-        "p3": ["OAK-MOR-1144", "OAK-MOR-588.fq.barcodeStripped", "OAK-MOR-985"]
+        "p3": ["OAK-MOR-1144", "OAK-MOR-588.fq.barcodeStripped", "OAK-MOR-985"],
         "p2": ["OAK-MOR-983"]
     })
 
