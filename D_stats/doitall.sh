@@ -16,6 +16,7 @@ python dStats_partitionedCrenata.py
 python dStats_cerrisAfares_libani.py
 python dStats_cerrisAfares_trojana.py
 python dStats_cerrisTrojana.py
+python dStats_suberAfares.py
 
 rm ../DATA/cerrisdstat.loci
 
