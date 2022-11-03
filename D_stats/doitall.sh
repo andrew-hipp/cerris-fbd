@@ -23,5 +23,5 @@ rm ../DATA/cerrisdstat.loci
 ipcluster stop --cluster-id="baba"
 
 R CMD BATCH r_plot_dStats.R
-R CMD BATCH r_checkP3.R
+R CMD BATCH r_partitionP.R
 R CMD BATCH r_summarizeTests.R
