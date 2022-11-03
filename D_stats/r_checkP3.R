@@ -19,7 +19,8 @@ inds = list(
   suberIlex = c("OAK-MOR-589.fq.barcodeStripped", "OAK-MOR-980", "OAK-MOR-1146"),
   cerrisAfares_libani = c("OAK-MOR-591.fq.barcodeStripped","OAK-MOR-736.fq.barcodeStripped","OAK-MOR-1061", "OAK-MOR-1060", "OAK-MOR-729.fq.barcodeStripped","OAK-MOR-728.fq.barcodeStripped"),
   cerrisAfares_trojana = c("OAK-MOR-591.fq.barcodeStripped","OAK-MOR-736.fq.barcodeStripped","OAK-MOR-1061", "OAK-MOR-1060", "OAK-MOR-729.fq.barcodeStripped","OAK-MOR-728.fq.barcodeStripped"),
-  cerrisTrojana = c("OAK-MOR-591.fq.barcodeStripped","OAK-MOR-736.fq.barcodeStripped","OAK-MOR-1061", "OAK-MOR-1060", "OAK-MOR-729.fq.barcodeStripped","OAK-MOR-728.fq.barcodeStripped")
+  cerrisTrojana = c("OAK-MOR-591.fq.barcodeStripped","OAK-MOR-736.fq.barcodeStripped","OAK-MOR-1061", "OAK-MOR-1060", "OAK-MOR-729.fq.barcodeStripped","OAK-MOR-728.fq.barcodeStripped"),
+  suberAfares = c("OAK-MOR-1144", "OAK-MOR-588.fq.barcodeStripped", "OAK-MOR-985")
   ) # close list
 sets <- names(inds)
 
