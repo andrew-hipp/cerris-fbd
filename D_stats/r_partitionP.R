@@ -79,12 +79,12 @@ for(i in sets) {
   names(out$D) <- names(out$Z) <- names(out$p) <- styleIt(inds[[i]], style='full')
   for(j in names(out$D)) {
     temp <- c(i, whichSet[i], j,  length(out$D[[j]]), mq(out$D[[j]]), mq(out$Z[[j]]), mq(out$p[[j]]), '', '')
-    temp[7] <-
+    temp[8] <-
       (sum(out$p[[j]] <= 0.01) / length(out$p[[j]])) %>%
       round(3)
-    if(mean(out$p[[j]]) <= 0.01) temp[8] = '*'
-    if(mean(out$p[[j]]) <= 0.001) temp[8] = '**'
-    if(mean(out$p[[j]]) <= 0.0001) temp[8] = '***'
+    if(mean(out$p[[j]]) <= 0.01) temp[9] = '*'
+    if(mean(out$p[[j]]) <= 0.001) temp[9] = '**'
+    if(mean(out$p[[j]]) <= 0.0001) temp[9] = '***'
     out.tab <- rbind(out.tab, temp)
     rm(temp)
   } # close j
