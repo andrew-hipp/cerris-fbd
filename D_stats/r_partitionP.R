@@ -66,7 +66,10 @@ inds = list(
                         "OAK-MOR-728.fq.barcodeStripped",
                         "OAK-MOR-729.fq.barcodeStripped",
                         "OAK-MOR-736.fq.barcodeStripped",
-                        "OAKS-MOR-585")
+                        "OAKS-MOR-585",
+                        "OAK-MOR-659.fq.barcodeStripped","OAK-MOR-662.fq.barcodeStripped", "OAK-MOR-1055",
+                        "OAK-MOR-735.fq.barcodeStripped","OAK-MOR-599.fq.barcodeStripped"
+                    )
   ) # close list
 whichSet = c(
   cerrisAfares = 'p3',

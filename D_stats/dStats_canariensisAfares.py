@@ -90,6 +90,38 @@ bb.tests = [
         "p3": ["OAK-MOR-534"],
         "p2": ["OAK-MOR-983"],
         "p1": ["OAK-MOR-1061"]
+    },
+    ### and the Aegilopsians...
+    # ,, , ,
+    {
+        "p4": ["PM_F7"],
+        "p3": ["OAK-MOR-534"],
+        "p2": ["OAK-MOR-983"],
+        "p1": ["OAK-MOR-659.fq.barcodeStripped"]
+    },
+    {
+        "p4": ["PM_F7"],
+        "p3": ["OAK-MOR-534"],
+        "p2": ["OAK-MOR-983"],
+        "p1": ["OAK-MOR-662.fq.barcodeStripped"]
+    },
+    {
+        "p4": ["PM_F7"],
+        "p3": ["OAK-MOR-534"],
+        "p2": ["OAK-MOR-983"],
+        "p1": ["OAK-MOR-1055"]
+    },
+    {
+        "p4": ["PM_F7"],
+        "p3": ["OAK-MOR-534"],
+        "p2": ["OAK-MOR-983"],
+        "p1": ["OAK-MOR-735.fq.barcodeStripped"]
+    },
+    {
+        "p4": ["PM_F7"],
+        "p3": ["OAK-MOR-534"],
+        "p2": ["OAK-MOR-983"],
+        "p1": ["OAK-MOR-599.fq.barcodeStripped"]
     }
     ]
 
