@@ -20,14 +20,9 @@ python dStats_suberAfares.py
 python dStats_suberCerris.py
 python dStats_crenataAfares.py
 python dStats_crenataCerris.py
+python dStats_canariensisAfares.py
 
 rm ../DATA/cerrisdstat.loci
-
-## added 2022-11-4 to test Q. canariensis into Q. afares
-
-gunzip -k ../DATA/oaksall_v1_2.m15.loci.gz
-python dStats_canariensisAfares.py
-rm ../DATA/oaksall_v1_2.m15.loci
 
 ipcluster stop --cluster-id="baba"
 

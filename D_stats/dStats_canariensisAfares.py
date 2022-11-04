@@ -11,9 +11,9 @@ import toyplot
 # this is already done in doitall.sh
 ipyclient = ipp.Client(cluster_id="baba")
 
-locifile = '../DATA/dstatv2.loci'
+locifile = '../DATA/cerrisdstat.loci'
 # newick = '../PHY.NEW/RAxML_bestTree.cerris.2022-01-04.m15.rax'
-newick = '../DATA/resolved.tree.tre'
+# newick = '../DATA/resolved.tree.tre'
 
 bb = ipa.baba(data = locifile, newick = newick)
 
@@ -24,20 +24,82 @@ bb = ipa.baba(data = locifile, newick = newick)
 #  p1 - Q. libani [sister to Q. afares]
 #### ORIG, but failed to make any constraints:  p1 - undefined --- anyone who fits the topology
 
-# bb.tests = [
-#     {"p4": ["PM_F7"],
-#     "p3": ["OAK-MOR-534"],
-#     "p2": ["OAK-MOR-983"],
-#     "p1": ["OAK-MOR-191"]}
-#     ]
-
-
-bb.generate_tests_from_tree(
-    constraint_dict={
+bb.tests = [
+    {
         "p4": ["PM_F7"],
         "p3": ["OAK-MOR-534"],
-        "p2": ["OAK-MOR-983"]
-    })
+        "p2": ["OAK-MOR-983"],
+        "p1": ["OAK-MOR-191"]
+    },
+    {
+        "p4": ["PM_F7"],
+        "p3": ["OAK-MOR-534"],
+        "p2": ["OAK-MOR-983"],
+        "p1": ["OAK-MOR-628.fq.barcodeStripped"]
+    },
+    {
+        "p4": ["PM_F7"],
+        "p3": ["OAK-MOR-534"],
+        "p2": ["OAK-MOR-983"],
+        "p1": ["OAK-MOR-585"]
+    },
+    {
+        "p4": ["PM_F7"],
+        "p3": ["OAK-MOR-534"],
+        "p2": ["OAK-MOR-983"],
+        "p1": ["OAK-MOR-1040"]
+    },
+    {
+        "p4": ["PM_F7"],
+        "p3": ["OAK-MOR-534"],
+        "p2": ["OAK-MOR-983"],
+        "p1": ["OAK-MOR-736.fq.barcodeStripped"]
+    },
+    {
+        "p4": ["PM_F7"],
+        "p3": ["OAK-MOR-534"],
+        "p2": ["OAK-MOR-983"],
+        "p1": ["OAK-MOR-591.fq.barcodeStripped"]
+    },
+    {
+        "p4": ["PM_F7"],
+        "p3": ["OAK-MOR-534"],
+        "p2": ["OAK-MOR-983"],
+        "p1": ["OAK-MOR-727.fq.barcodeStripped"]
+    },
+    {
+        "p4": ["PM_F7"],
+        "p3": ["OAK-MOR-534"],
+        "p2": ["OAK-MOR-983"],
+        "p1": ["OAK-MOR-728.fq.barcodeStripped"]
+    },
+    {
+        "p4": ["PM_F7"],
+        "p3": ["OAK-MOR-534"],
+        "p2": ["OAK-MOR-983"],
+        "p1": ["OAK-MOR-729.fq.barcodeStripped"]
+    },
+    {
+        "p4": ["PM_F7"],
+        "p3": ["OAK-MOR-534"],
+        "p2": ["OAK-MOR-983"],
+        "p1": ["OAK-MOR-1060"]
+    },
+    {
+        "p4": ["PM_F7"],
+        "p3": ["OAK-MOR-534"],
+        "p2": ["OAK-MOR-983"],
+        "p1": ["OAK-MOR-1061"]
+    }
+    ]
+
+
+# bb.generate_tests_from_tree(
+#     constraint_dict={
+#         "p4": ["PM_F7"],
+#         "p3": ["OAK-MOR-534"],
+#         "p2": ["OAK-MOR-983"]
+#     })
 
 bb.run(ipyclient)
 
