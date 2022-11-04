@@ -12,7 +12,8 @@ import toyplot
 ipyclient = ipp.Client(cluster_id="baba")
 
 locifile = '../DATA/dstatv2.loci'
-newick = '../PHY.NEW/RAxML_bestTree.cerris.2022-01-04.m15.rax'
+# newick = '../PHY.NEW/RAxML_bestTree.cerris.2022-01-04.m15.rax'
+newick = '../DATA/resolved.tree.tre'
 
 bb = ipa.baba(data = locifile, newick = newick)
 
