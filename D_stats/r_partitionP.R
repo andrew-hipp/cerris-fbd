@@ -35,7 +35,27 @@ inds = list(
                   "OAK-MOR-662.fq.barcodeStripped", "OAK-MOR-727.fq.barcodeStripped",
                   "OAK-MOR-728.fq.barcodeStripped", "OAK-MOR-729.fq.barcodeStripped",
                   "OAK-MOR-735.fq.barcodeStripped", "OAK-MOR-736.fq.barcodeStripped",
-                  "OAKS-MOR-585")
+                  "OAKS-MOR-585"),
+  suberCerris = c("OAK-MOR-659.fq.barcodeStripped", ",", "OAK-MOR-662.fq.barcodeStripped",
+                  "OAK-MOR-1055", "OAK-MOR-735.fq.barcodeStripped", "OAK-MOR-599.fq.barcodeStripped",
+                  "OAK-MOR-628.fq.barcodeStripped", "OAKS-MOR-585", "OAK-MOR-1061",
+                  "OAK-MOR-1060", "OAK-MOR-727.fq.barcodeStripped", "OAK-MOR-729.fq.barcodeStripped",
+                  "OAK-MOR-728.fq.barcodeStripped", "OAK-MOR-591.fq.barcodeStripped",
+                  "OAK-MOR-983", "OAK-MOR-191", "OAK-MOR-1040", "OAK-MOR-736.fq.barcodeStripped"),
+  crenataAfares = c("OAK-MOR-659.fq.barcodeStripped", ",", "OAK-MOR-662.fq.barcodeStripped",
+                    "OAK-MOR-1055", "OAK-MOR-735.fq.barcodeStripped", "OAK-MOR-599.fq.barcodeStripped",
+                    "OAK-MOR-591.fq.barcodeStripped", "OAK-MOR-736.fq.barcodeStripped",
+                    "OAK-MOR-628.fq.barcodeStripped", "OAKS-MOR-585", "OAK-MOR-1040",
+                    "OAK-MOR-727.fq.barcodeStripped", "OAK-MOR-1061", "OAK-MOR-1060",
+                    "OAK-MOR-729.fq.barcodeStripped", "OAK-MOR-728.fq.barcodeStripped",
+                    "OAK-MOR-191"),
+  crenataCerris = c("OAK-MOR-659.fq.barcodeStripped", ",", "OAK-MOR-662.fq.barcodeStripped",
+                    "OAK-MOR-1055", "OAK-MOR-735.fq.barcodeStripped", "OAK-MOR-599.fq.barcodeStripped",
+                    "OAK-MOR-628.fq.barcodeStripped", "OAKS-MOR-585", "OAK-MOR-727.fq.barcodeStripped",
+                    "OAK-MOR-983", "OAK-MOR-191", "OAK-MOR-1061", "OAK-MOR-1060",
+                    "OAK-MOR-729.fq.barcodeStripped", "OAK-MOR-728.fq.barcodeStripped",
+                    "OAK-MOR-591.fq.barcodeStripped", "OAK-MOR-736.fq.barcodeStripped",
+                    "OAK-MOR-1040")
   ) # close list
 whichSet = c(
   cerrisAfares = 'p3',
@@ -47,7 +67,10 @@ whichSet = c(
   cerrisAfares_libani = 'p3',
   cerrisAfares_trojana = 'p3',
   cerrisTrojana = 'p3',
-  suberAfares = 'p1'
+  suberAfares = 'p1',
+  suberCerris = 'p1',
+  crenataAfares = 'p1',
+  crenataCerris = 'p1'
   ) # close list
 
 sets <- names(inds)

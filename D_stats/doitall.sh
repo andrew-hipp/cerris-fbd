@@ -17,7 +17,6 @@ python dStats_cerrisAfares_libani.py
 python dStats_cerrisAfares_trojana.py
 python dStats_cerrisTrojana.py
 python dStats_suberAfares.py
-
 python dStats_suberCerris.py
 python dStats_crenataAfares.py
 python dStats_crenataCerris.py
