@@ -14,7 +14,8 @@ ipyclient = ipp.Client(cluster_id="baba")
 locifile = '../DATA/oaksall_v1_2.m15.loci'
 newick = '../PHY.NEW/RAxML_bestTree.cerris.2022-01-04.m15.rax'
 
-bb = ipa.baba(data = locifile, newick = newick)
+# bb = ipa.baba(data = locifile, newick = newick)
+bb = ipa.baba(data = locifile)
 
 # Q. afares hybrid origin with suber test constraints:
 #  p4 - Notholithocarpus as outgroup
