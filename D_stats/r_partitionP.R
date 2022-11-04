@@ -55,7 +55,18 @@ inds = list(
                     "OAK-MOR-983", "OAK-MOR-191", "OAK-MOR-1061", "OAK-MOR-1060",
                     "OAK-MOR-729.fq.barcodeStripped", "OAK-MOR-728.fq.barcodeStripped",
                     "OAK-MOR-591.fq.barcodeStripped", "OAK-MOR-736.fq.barcodeStripped",
-                    "OAK-MOR-1040")
+                    "OAK-MOR-1040"),
+  canariensisAfares = c("OAK-MOR-1040",
+                        "OAK-MOR-1060",
+                        "OAK-MOR-1061",
+                        "OAK-MOR-191",
+                        "OAK-MOR-591.fq.barcodeStripped",
+                        "OAK-MOR-628.fq.barcodeStripped",
+                        "OAK-MOR-727.fq.barcodeStripped",
+                        "OAK-MOR-728.fq.barcodeStripped",
+                        "OAK-MOR-729.fq.barcodeStripped",
+                        "OAK-MOR-736.fq.barcodeStripped",
+                        "OAKS-MOR-585")
   ) # close list
 whichSet = c(
   cerrisAfares = 'p3',
@@ -70,7 +81,8 @@ whichSet = c(
   suberAfares = 'p1',
   suberCerris = 'p1',
   crenataAfares = 'p1',
-  crenataCerris = 'p1'
+  crenataCerris = 'p1',
+  canariensisAfares = 'p1'
   ) # close list
 
 sets <- names(inds)
