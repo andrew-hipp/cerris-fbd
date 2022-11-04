@@ -20,13 +20,15 @@ bb = ipa.baba(data = locifile, newick = newick)
 #  p4 - Notholithocarpus as outgroup
 #  p3 - Q. canariensis potential introgressor 1
 #  p2 - Q. afares potential introgressor 2
-#  p1 - undefined --- anyone who fits the topology
+#  p1 - Q. libani [sister to Q. afares]
+#### ORIG, but failed to make any constraints:  p1 - undefined --- anyone who fits the topology
 
 bb.generate_tests_from_tree(
     constraint_dict={
         "p4": ["PM_F7"],
         "p3": ["OAK-MOR-534"],
-        "p2": ["OAK-MOR-983"]
+        "p2": ["OAK-MOR-983"],
+        "p1": ["OAK-MOR-191"]
     })
 
 bb.run(ipyclient)
