@@ -23,6 +23,12 @@ python dStats_crenataCerris.py
 
 rm ../DATA/cerrisdstat.loci
 
+## added 2022-11-4 to test Q. canariensis into Q. afares
+
+gunzip -k ../DATA/oaksall_v1_2.m15.loci.gz
+python dStats_canariensisAfares.py
+rm ../DATA/oaksall_v1_2.m15.loci
+
 ipcluster stop --cluster-id="baba"
 
 R CMD BATCH r_plot_dStats.R
