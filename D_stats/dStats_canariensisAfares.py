@@ -15,7 +15,7 @@ locifile = '../DATA/cerrisdstat.loci'
 # newick = '../PHY.NEW/RAxML_bestTree.cerris.2022-01-04.m15.rax'
 # newick = '../DATA/resolved.tree.tre'
 
-bb = ipa.baba(data = locifile, newick = newick)
+bb = ipa.baba(data = locifile)
 
 # Q. afares hybrid origin with suber test constraints:
 #  p4 - Notholithocarpus as outgroup
