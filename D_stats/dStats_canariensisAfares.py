@@ -23,18 +23,26 @@ bb = ipa.baba(data = locifile, newick = newick)
 #  p1 - Q. libani [sister to Q. afares]
 #### ORIG, but failed to make any constraints:  p1 - undefined --- anyone who fits the topology
 
-bb.generate_tests_from_tree(
-    constraint_dict={
-        "p4": ["PM_F7"],
-        "p3": ["OAK-MOR-534"],
-        "p2": ["OAK-MOR-983"],
-        "p1": ["OAK-MOR-191"]
-    })
+bb.tests = [
+    {"p4": ["PM_F7"],
+    "p3": ["OAK-MOR-534"],
+    "p2": ["OAK-MOR-983"],
+    "p1": ["OAK-MOR-191"]}
+    ]
+
+
+# bb.generate_tests_from_tree(
+#     constraint_dict={
+#         "p4": ["PM_F7"],
+#         "p3": ["OAK-MOR-534"],
+#         "p2": ["OAK-MOR-983"],
+#         "p1": ["OAK-MOR-191"]
+#     })
 
 bb.run(ipyclient)
 
-out_suberAfares = bb.results_table.sort_values(by="Z", ascending=False)
-taxa_suberAfares = bb.taxon_table.iloc[out_suberAfares.index]
+out_canariensisAfares = bb.results_table.sort_values(by="Z", ascending=False)
+taxa_canariensisAfares = bb.taxon_table.iloc[out_canariensisAfares.index]
 
-out_suberAfares.to_csv('bb.dstat.sorted_suberAfares_full.csv', sep = ',')
-taxa_suberAfares.to_csv('bb.dstat.taxa_suberAfares_full.csv', sep = ',')
+out_canariensisAfares.to_csv('bb.dstat.sorted_canariensisAfares_full.csv', sep = ',')
+taxa_canariensisAfares.to_csv('bb.dstat.taxa_canariensisAfares_full.csv', sep = ',')
