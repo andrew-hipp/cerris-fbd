@@ -11,7 +11,7 @@ import toyplot
 # this is already done in doitall.sh
 ipyclient = ipp.Client(cluster_id="baba")
 
-locifile = '../DATA/oaksall_v1_2.m15.loci'
+locifile = '../DATA/dstatv2.loci'
 newick = '../PHY.NEW/RAxML_bestTree.cerris.2022-01-04.m15.rax'
 
 # bb = ipa.baba(data = locifile, newick = newick)
