@@ -41,7 +41,7 @@ bb.tests = [
         "p4": ["PM_F7"],
         "p3": ["OAK-MOR-534"],
         "p2": ["OAK-MOR-983"],
-        "p1": ["OAK-MOR-585"]
+        "p1": ["OAKS-MOR-585"]
     },
     {
         "p4": ["PM_F7"],
