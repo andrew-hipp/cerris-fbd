@@ -24,21 +24,20 @@ bb = ipa.baba(data = locifile)
 #  p1 - Q. libani [sister to Q. afares]
 #### ORIG, but failed to make any constraints:  p1 - undefined --- anyone who fits the topology
 
-bb.tests = [
-    {"p4": ["PM_F7"],
-    "p3": ["OAK-MOR-534"],
-    "p2": ["OAK-MOR-983"],
-    "p1": ["OAK-MOR-191"]}
-    ]
+# bb.tests = [
+#     {"p4": ["PM_F7"],
+#     "p3": ["OAK-MOR-534"],
+#     "p2": ["OAK-MOR-983"],
+#     "p1": ["OAK-MOR-191"]}
+#     ]
 
 
-# bb.generate_tests_from_tree(
-#     constraint_dict={
-#         "p4": ["PM_F7"],
-#         "p3": ["OAK-MOR-534"],
-#         "p2": ["OAK-MOR-983"],
-#         "p1": ["OAK-MOR-191"]
-#     })
+bb.generate_tests_from_tree(
+    constraint_dict={
+        "p4": ["PM_F7"],
+        "p3": ["OAK-MOR-534"],
+        "p2": ["OAK-MOR-983"]
+    })
 
 bb.run(ipyclient)
 
