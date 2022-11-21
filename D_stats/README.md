@@ -6,7 +6,7 @@ Runs 4-taxon ABBA-BABA (d-statistic) tests for _Cerris_ data
 Follows: https://ipyrad.readthedocs.io/en/master/API-analysis/cookbook-abba-baba.html  
 
 ## To run all analyses
-The easiest way to replicate analyses here is to navigate into this folder and use `sh doitall.sh` to run all scripts in order.
+The easiest way to replicate analyses here is to navigate into the `final` folder and use `sh doitall.sh` to run all scripts in order.
 
 ## steps
 ### 1. subset tree and write
