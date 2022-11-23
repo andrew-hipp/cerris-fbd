@@ -1,4 +1,4 @@
-# unique r functions for this project
+# unique r functions for this project -- updating
 
 roundTo = 3 # how many digits to round to
 
