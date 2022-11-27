@@ -9,7 +9,6 @@ update: 26 Nov 2022: tests reordered for clarity following numbering in paper
 
 ## A1 -- cerris-crenata (n = 500): *Q. cerris* with *Q. crenata*
 
-
 -   p4 - Q. chenii, Q. variabilis, and Q. acutissima as outgroups
 -   p3 - Q. cerris potential introgressor 1
 -   p2 - Q. crenata potential introgressor 2
@@ -143,63 +142,63 @@ Script: D_stats\dStats_crenata_v_crenata.py
 
 ## Supplemental test 2 -- partitioned crenata (n = 3): 5-taxon (partitioned) *D*-statistic test
 
+Reported in Supplemental Table S7 (only test reported in that table)
+
 -   p5 - Q. chenii, Q. variabilis, and Q. acutissima as outgroups
 -   p3_1 = p4 - varies (see below)
 -   p3_2 = p3 - varies (see below)
 -   p2 - Q. crenata potential introgressor 2
 -   p1 - Q. suber as sister species to Q. crenata
 
-Reported in Supplemental Table S7 (only test reported in that table)
-
 **INDIVIDUALS USED**
 
-    -   Test 0 : p4 = aegilops, p3 = libani et al
-        -   p5: OAK-MOR-982, OAK-MOR-981,
-            OAK-MOR-578.fq.barcodeStripped
-        -   p4:
-            OAK-MOR-659.fq.barcodeStripped,OAK-MOR-662.fq.barcodeStripped,
-            OAK-MOR-1055,
-            OAK-MOR-735.fq.barcodeStripped,OAK-MOR-599.fq.barcodeStripped
-        -   p3: OAK-MOR-191, OAK-MOR-983,
-            OAK-MOR-628.fq.barcodeStripped, OAKS-MOR-585
-        -   p2: OAK-MOR-593.fq.barcodeStripped,
-            OAK-MOR-986,
-        -   p1: OAK-MOR-985, OAK-MOR-1144,
-            OAK-MOR-588.fq.barcodeStripped
+-   Test 0 : p4 = aegilops, p3 = libani et al
+    -   p5: OAK-MOR-982, OAK-MOR-981,
+        OAK-MOR-578.fq.barcodeStripped
+    -   p4:
+        OAK-MOR-659.fq.barcodeStripped,OAK-MOR-662.fq.barcodeStripped,
+        OAK-MOR-1055,
+        OAK-MOR-735.fq.barcodeStripped,OAK-MOR-599.fq.barcodeStripped
+    -   p3: OAK-MOR-191, OAK-MOR-983,
+        OAK-MOR-628.fq.barcodeStripped, OAKS-MOR-585
+    -   p2: OAK-MOR-593.fq.barcodeStripped,
+        OAK-MOR-986,
+    -   p1: OAK-MOR-985, OAK-MOR-1144,
+        OAK-MOR-588.fq.barcodeStripped
 
-    -   Test 1 : p4 = aegilops, p3 = cerris et al
+-   Test 1 : p4 = aegilops, p3 = cerris et al
 
-        -   p5: OAK-MOR-982, OAK-MOR-981,
-            OAK-MOR-578.fq.barcodeStripped
-        -   p4:
-            OAK-MOR-659.fq.barcodeStripped,OAK-MOR-662.fq.barcodeStripped,
-            OAK-MOR-1055,
-            OAK-MOR-735.fq.barcodeStripped,OAK-MOR-599.fq.barcodeStripped
-        -   p3: OAK-MOR-727.fq.barcodeStripped,
-            OAK-MOR-1061, OAK-MOR-1060,
-            OAK-MOR-729.fq.barcodeStripped,
-            OAK-MOR-728.fq.barcodeStripped, OAK-MOR-1040,
-            OAK-MOR-591.fq.barcodeStripped,
-            OAK-MOR-736.fq.barcodeStripped
-        -   p2: OAK-MOR-593.fq.barcodeStripped,
-            OAK-MOR-986
-        -   p1: OAK-MOR-985, OAK-MOR-1144,
-            OAK-MOR-588.fq.barcodeStripped
+    -   p5: OAK-MOR-982, OAK-MOR-981,
+        OAK-MOR-578.fq.barcodeStripped
+    -   p4:
+        OAK-MOR-659.fq.barcodeStripped,OAK-MOR-662.fq.barcodeStripped,
+        OAK-MOR-1055,
+        OAK-MOR-735.fq.barcodeStripped,OAK-MOR-599.fq.barcodeStripped
+    -   p3: OAK-MOR-727.fq.barcodeStripped,
+        OAK-MOR-1061, OAK-MOR-1060,
+        OAK-MOR-729.fq.barcodeStripped,
+        OAK-MOR-728.fq.barcodeStripped, OAK-MOR-1040,
+        OAK-MOR-591.fq.barcodeStripped,
+        OAK-MOR-736.fq.barcodeStripped
+    -   p2: OAK-MOR-593.fq.barcodeStripped,
+        OAK-MOR-986
+    -   p1: OAK-MOR-985, OAK-MOR-1144,
+        OAK-MOR-588.fq.barcodeStripped
 
-    -   Test 2 : p4 = libani et al, p3 = cerris et al
-        -   p5: OAK-MOR-982, OAK-MOR-981,
-            OAK-MOR-578.fq.barcodeStripped
-        -   p4: OAK-MOR-191, OAK-MOR-983,
-            OAK-MOR-628.fq.barcodeStripped, OAKS-MOR-585
-        -   p3: OAK-MOR-727.fq.barcodeStripped,
-            OAK-MOR-1061,
-            OAK-MOR-1060,OAK-MOR-729.fq.barcodeStripped,
-            OAK-MOR-728.fq.barcodeStripped, OAK-MOR-1040,
-            OAK-MOR-591.fq.barcodeStripped,
-            OAK-MOR-736.fq.barcodeStripped
-        -   p2: OAK-MOR-593.fq.barcodeStripped,
-            OAK-MOR-986
-        -   p1: OAK-MOR-985, OAK-MOR-1144,
-            OAK-MOR-588.fq.barcodeStripped
+-   Test 2 : p4 = libani et al, p3 = cerris et al
+    -   p5: OAK-MOR-982, OAK-MOR-981,
+        OAK-MOR-578.fq.barcodeStripped
+    -   p4: OAK-MOR-191, OAK-MOR-983,
+        OAK-MOR-628.fq.barcodeStripped, OAKS-MOR-585
+    -   p3: OAK-MOR-727.fq.barcodeStripped,
+        OAK-MOR-1061,
+        OAK-MOR-1060,OAK-MOR-729.fq.barcodeStripped,
+        OAK-MOR-728.fq.barcodeStripped, OAK-MOR-1040,
+        OAK-MOR-591.fq.barcodeStripped,
+        OAK-MOR-736.fq.barcodeStripped
+    -   p2: OAK-MOR-593.fq.barcodeStripped,
+        OAK-MOR-986
+    -   p1: OAK-MOR-985, OAK-MOR-1144,
+        OAK-MOR-588.fq.barcodeStripped
 
 Script: D_stats\dStats_partitionedCrenata.py
