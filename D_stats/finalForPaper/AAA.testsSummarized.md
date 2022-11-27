@@ -130,7 +130,9 @@ Script: D_stats\dStats_suberIlex.py
 # Tests discussed only in supplement
 Two tests were excluded from the main paper for clarity. Results are present in the output files in this repository and discussed in supplemental data 1; tests performed are summarized here:
 
-## ADDENDUM 1 -- crenata vs. crenata (n = 165): all species potentially introgressing with *Q. crenata* as tested above with each of the *Q. crenata* individuals as sister species
+## Supplemental test 1 -- crenata vs. crenata (n = 165): all species potentially introgressing with *Q. crenata* as tested above with each of the *Q. crenata* individuals as sister species
+
+Reported in Supplemental Table S6, as "Supplemental Test 1"
 
 -   p4 - Q. chenii, Q. variabilis, and Q. acutissima as outgroups
 -   p3 - sect. Aegilops, Q. cerris, and sect. Libani as possible introgressors
@@ -139,13 +141,15 @@ Two tests were excluded from the main paper for clarity. Results are present in 
 
 Script: D_stats\dStats_crenata_v_crenata.py
 
-## ADDENDUM 2 -- partitioned crenata (n = 3): 5-taxon (partitioned) *D*-statistic test
+## Supplemental test 2 -- partitioned crenata (n = 3): 5-taxon (partitioned) *D*-statistic test
 
 -   p5 - Q. chenii, Q. variabilis, and Q. acutissima as outgroups
 -   p3_1 = p4 - varies (see below)
 -   p3_2 = p3 - varies (see below)
 -   p2 - Q. crenata potential introgressor 2
 -   p1 - Q. suber as sister species to Q. crenata
+
+Reported in Supplemental Table S7 (only test reported in that table)
 
 **INDIVIDUALS USED**
 
