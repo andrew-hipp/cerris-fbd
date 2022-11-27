@@ -1,6 +1,7 @@
 # cerris-fbd
 _Quercus_ sect. _Cerris_ fossilized birth-death analyses and ABBA-BABA (_D_-statistic) tests
-for: Niche evolution in a northern temperate tree lineage: biogeographic legacies in cork oaks (_Quercus_ sect. _Cerris_)  
+for:  
+Niche evolution in a northern temperate tree lineage: biogeographic legacies in cork oaks (_Quercus_ sect. _Cerris_)  
 Thomas Denk, Guido W. Grimm, Andrew L. Hipp, Johannes M. Bouchal, Ernst-Detlef Schulze, Marco C. Simeone  
 in revision  
 (ahipp@mortonarb.org)  
